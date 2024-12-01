@@ -1,0 +1,23 @@
+{
+  "message": "success",
+  "news": [
+    {
+      "id": 1,
+      "announce_id": 0,
+      "office": 1,
+      "title": "[{\"lang\": \"def\", \"text\": \"Xmasサンタ衣装販売開始！\"}]",
+      "message": "[{\"lang\": \"def\", \"text\": \"Xmasサンタ衣装登場！第1弾は0期生の5名！5名まとめての特別セットも販売！\"}]",
+      "display_date": "2023-10-31 00:00:00",
+      "push_notification_date": "2023-10-31 19:00:00"
+    },
+    {
+      "id": 2,
+      "announce_id": 1,
+      "office": 1,
+      "title": "[{\"lang\": \"def\", \"text\": \"hololy unofficial service\"}]",
+      "message": "[{\"lang\": \"def\", \"text\": \"this is the demo of CUAgain\nhttps://github.com/suisei-pettan/CUAgain\"}]",
+      "display_date": "2018-03-22 00:00:00",
+      "push_notification_date": "2023-10-31 20:00:00"
+    }
+  ]
+}

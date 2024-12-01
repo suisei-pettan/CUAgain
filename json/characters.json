@@ -1,0 +1,3055 @@
+{
+  "message": "success",
+  "characters": [
+    {
+      "id": 2,
+      "office": 1,
+      "priority": 1,
+      "name": "ときのそら",
+      "thumbnail": "001_Sora_001_normal_icon",
+      "vrms": [
+        {
+          "id": 1,
+          "category": 1,
+          "display_name": "ときのそら",
+          "asset_no": 1,
+          "asset_name": "001_sora_001_normal",
+          "thumbnail": "001_Sora_001_normal_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "013FA6ED3EC9479D6D94C37A0E606BAF71B79D68"
+        },
+        {
+          "id": 1623,
+          "category": 1,
+          "display_name": "青上高校旧制服",
+          "asset_no": 41,
+          "asset_name": "001_sora_002_sailorfs",
+          "thumbnail": "001_sora_002_sailorfs_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "E83E5A89AFD8DFBD2CCD2D42DB2D6FE964A9EDC2"
+        },
+        {
+          "id": 3100,
+          "category": 1,
+          "display_name": "青上高校制服",
+          "asset_no": 3100,
+          "asset_name": "001_sora_004_sailor_f_r",
+          "thumbnail": "001_Sora_004_Sailor_F_R_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "E83E5A89AFD8DFBD2CCD2D42DB2D6FE964A9EDC2"
+        },
+        {
+          "id": 3200,
+          "category": 1,
+          "display_name": "青上高校制服",
+          "asset_no": 3200,
+          "asset_name": "001_sora_005_yukata_f_a",
+          "thumbnail": "001_sora_005_yukata_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "E83E5A89AFD8DFBD2CCD2D42DB2D6FE964A9EDC2"
+        },
+        {
+          "id": 3300,
+          "category": 1,
+          "display_name": "青上高校制服",
+          "asset_no": 3300,
+          "asset_name": "001_sora_006_mizugi_f_a",
+          "thumbnail": "001_sora_006_mizugi_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "E83E5A89AFD8DFBD2CCD2D42DB2D6FE964A9EDC2"
+        },
+        {
+          "id": 3600,
+          "category": 1,
+          "display_name": "青上高校制服",
+          "asset_no": 3600,
+          "asset_name": "001_sora_007_santa_f_a",
+          "thumbnail": "001_sora_007_santa_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "E83E5A89AFD8DFBD2CCD2D42DB2D6FE964A9EDC2"
+        },
+        {
+          "id": 3700,
+          "category": 1,
+          "display_name": "青上高校制服",
+          "asset_no": 3700,
+          "asset_name": "001_sora_008_nss_f_c",
+          "thumbnail": "001_sora_008_nss_f_c_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "E83E5A89AFD8DFBD2CCD2D42DB2D6FE964A9EDC2"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "office": 1,
+      "priority": 2,
+      "name": "ロボ子さん",
+      "thumbnail": "002_Robokosan_003_normal",
+      "vrms": [
+        {
+          "id": 2,
+          "category": 1,
+          "display_name": "ロボ子さん",
+          "asset_no": 68,
+          "asset_name": "002_robokosan_003_normal",
+          "thumbnail": "002_Robokosan_003_normal",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "00674F83D56B57DD5F69B63FA03C6D91C0F4A62F"
+        },
+        {
+          "id": 3101,
+          "category": 1,
+          "display_name": "ロボ子さん",
+          "asset_no": 3101,
+          "asset_name": "002_robokosan_005_sailor_f_r",
+          "thumbnail": "002_Robokosan_005_sailor_F_R_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "00674F83D56B57DD5F69B63FA03C6D91C0F4A62F"
+        },
+        {
+          "id": 3201,
+          "category": 1,
+          "display_name": "ロボ子さん",
+          "asset_no": 3201,
+          "asset_name": "002_robokosan_006_yukata_f_a",
+          "thumbnail": "002_robokosan_006_yukata_f_a_08_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "00674F83D56B57DD5F69B63FA03C6D91C0F4A62F"
+        },
+        {
+          "id": 3301,
+          "category": 1,
+          "display_name": "ロボ子さん",
+          "asset_no": 3301,
+          "asset_name": "002_robokosan_007_mizugi_f_b",
+          "thumbnail": "002_robokosan_007_mizugi_f_b_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "00674F83D56B57DD5F69B63FA03C6D91C0F4A62F"
+        },
+        {
+          "id": 3601,
+          "category": 1,
+          "display_name": "ロボ子さん",
+          "asset_no": 3601,
+          "asset_name": "002_robokosan_008_santa_f_a",
+          "thumbnail": "002_robokosan_008_santa_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "00674F83D56B57DD5F69B63FA03C6D91C0F4A62F"
+        },
+        {
+          "id": 3701,
+          "category": 1,
+          "display_name": "ロボ子さん",
+          "asset_no": 3701,
+          "asset_name": "002_robokosan_009_nss_f_ac",
+          "thumbnail": "002_robokosan_009_nss_f_ac_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "00674F83D56B57DD5F69B63FA03C6D91C0F4A62F"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "office": 1,
+      "priority": 4,
+      "name": "アキ・ローゼンタール",
+      "thumbnail": "005_Aki_001_normal_icon",
+      "vrms": [
+        {
+          "id": 6,
+          "category": 1,
+          "display_name": "アキ・ローゼンタール",
+          "asset_no": 6,
+          "asset_name": "005_aki_001_normal",
+          "thumbnail": "005_Aki_001_normal_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "DFC31C51C0EFC02B1F720D5FF19966B90125BC3C"
+        },
+        {
+          "id": 3104,
+          "category": 1,
+          "display_name": "アキ・ローゼンタール",
+          "asset_no": 3104,
+          "asset_name": "005_aki_002_sailor_f_r",
+          "thumbnail": "005_Aki_002_Sailor_F_R_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "DFC31C51C0EFC02B1F720D5FF19966B90125BC3C"
+        },
+        {
+          "id": 3204,
+          "category": 1,
+          "display_name": "アキ・ローゼンタール",
+          "asset_no": 3204,
+          "asset_name": "005_aki_004_yukata_f_a",
+          "thumbnail": "005_aki_004_yukata_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "DFC31C51C0EFC02B1F720D5FF19966B90125BC3C"
+        },
+        {
+          "id": 3304,
+          "category": 1,
+          "display_name": "アキ・ローゼンタール",
+          "asset_no": 3304,
+          "asset_name": "005_aki_005_mizugi_f_b",
+          "thumbnail": "005_aki_005_mizugi_f_b_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "DFC31C51C0EFC02B1F720D5FF19966B90125BC3C"
+        },
+        {
+          "id": 3501,
+          "category": 1,
+          "display_name": "アキ・ローゼンタール",
+          "asset_no": 3501,
+          "asset_name": "005_aki_006_bj_f_a",
+          "thumbnail": "005_aki_006_bj_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "DFC31C51C0EFC02B1F720D5FF19966B90125BC3C"
+        },
+        {
+          "id": 3604,
+          "category": 1,
+          "display_name": "アキ・ローゼンタール",
+          "asset_no": 3604,
+          "asset_name": "005_aki_007_santa_f_a",
+          "thumbnail": "005_aki_007_santa_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "DFC31C51C0EFC02B1F720D5FF19966B90125BC3C"
+        },
+        {
+          "id": 3704,
+          "category": 1,
+          "display_name": "アキ・ローゼンタール",
+          "asset_no": 3704,
+          "asset_name": "005_aki_008_nss_f_a",
+          "thumbnail": "005_aki_008_nss_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "DFC31C51C0EFC02B1F720D5FF19966B90125BC3C"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "office": 1,
+      "priority": 5,
+      "name": "赤井はあと",
+      "thumbnail": "006_Haato_001_normal_icon",
+      "vrms": [
+        {
+          "id": 7,
+          "category": 1,
+          "display_name": "赤井はあと",
+          "asset_no": 7,
+          "asset_name": "006_haato_001_normal",
+          "thumbnail": "006_Haato_001_normal_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "21B6A32279A79724C073C12CFE3CD36A3C244D73"
+        },
+        {
+          "id": 3205,
+          "category": 1,
+          "display_name": "赤井はあと",
+          "asset_no": 3205,
+          "asset_name": "006_haato_002_yukata_f_a",
+          "thumbnail": "006_haato_002_yukata_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "21B6A32279A79724C073C12CFE3CD36A3C244D73"
+        },
+        {
+          "id": 3305,
+          "category": 1,
+          "display_name": "赤井はあと",
+          "asset_no": 3305,
+          "asset_name": "006_haato_003_mizugi_f_a",
+          "thumbnail": "006_haato_003_mizugi_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "21B6A32279A79724C073C12CFE3CD36A3C244D73"
+        },
+        {
+          "id": 3605,
+          "category": 1,
+          "display_name": "赤井はあと",
+          "asset_no": 3605,
+          "asset_name": "006_haato_004_santa_f_a",
+          "thumbnail": "006_haato_004_santa_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "21B6A32279A79724C073C12CFE3CD36A3C244D73"
+        },
+        {
+          "id": 3705,
+          "category": 1,
+          "display_name": "赤井はあと",
+          "asset_no": 3705,
+          "asset_name": "006_haato_005_nss_f_b",
+          "thumbnail": "006_haato_005_nss_f_b_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "21B6A32279A79724C073C12CFE3CD36A3C244D73"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "office": 1,
+      "priority": 6,
+      "name": "白上フブキ",
+      "thumbnail": "007_Fubuki_008_normal_v2_icon",
+      "vrms": [
+        {
+          "id": 905,
+          "category": 1,
+          "display_name": "白上フブキ",
+          "asset_no": 241,
+          "asset_name": "007_fubuki_008_normal_v2",
+          "thumbnail": "007_Fubuki_008_normal_v2_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "31BAA138560DF59884A54D0C68DCC0161546D86D"
+        },
+        {
+          "id": 3306,
+          "category": 1,
+          "display_name": "シャイニーウェーブ",
+          "asset_no": 278,
+          "asset_name": "007_fubukiv2_011_mizugi_f_b",
+          "thumbnail": "007_fubukiv2_011_mizugi_f_b_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "25C12C18A0F6B3F7CBDFFBFFD347F791243ACD0D"
+        },
+        {
+          "id": 3114,
+          "category": 1,
+          "display_name": "シャイニーウェーブ",
+          "asset_no": 3114,
+          "asset_name": "007_fubukiv2_010_blazerv2_f_a",
+          "thumbnail": "007_fubukiv2_010_blazerv2_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "25C12C18A0F6B3F7CBDFFBFFD347F791243ACD0D"
+        },
+        {
+          "id": 3206,
+          "category": 1,
+          "display_name": "シャイニーウェーブ",
+          "asset_no": 3206,
+          "asset_name": "007_fubuki_004_yukata_f_a",
+          "thumbnail": "007_fubuki_004_yukata_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "25C12C18A0F6B3F7CBDFFBFFD347F791243ACD0D"
+        },
+        {
+          "id": 3502,
+          "category": 1,
+          "display_name": "シャイニーウェーブ",
+          "asset_no": 3502,
+          "asset_name": "007_fubukiv2_012_bj_f_a",
+          "thumbnail": "007_fubukiv2_012_bj_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "25C12C18A0F6B3F7CBDFFBFFD347F791243ACD0D"
+        },
+        {
+          "id": 3606,
+          "category": 1,
+          "display_name": "シャイニーウェーブ",
+          "asset_no": 3606,
+          "asset_name": "007_fubukiv2_013_santav2_f_a",
+          "thumbnail": "007_fubukiv2_013_santav2_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "25C12C18A0F6B3F7CBDFFBFFD347F791243ACD0D"
+        },
+        {
+          "id": 3706,
+          "category": 1,
+          "display_name": "シャイニーウェーブ",
+          "asset_no": 3706,
+          "asset_name": "007_fubuki_009_nssv2_f_ca",
+          "thumbnail": "007_fubuki_009_nssv2_f_ca_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "25C12C18A0F6B3F7CBDFFBFFD347F791243ACD0D"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "office": 1,
+      "priority": 7,
+      "name": "夏色まつり",
+      "thumbnail": "008_Matsuri_001_normal_icon",
+      "vrms": [
+        {
+          "id": 8,
+          "category": 1,
+          "display_name": "夏色まつり",
+          "asset_no": 8,
+          "asset_name": "008_matsuri_001_normal",
+          "thumbnail": "008_Matsuri_001_normal_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "87BEEA896222C73710FB21EF60DB74DA97E38A11"
+        },
+        {
+          "id": 3105,
+          "category": 1,
+          "display_name": "夏色まつり",
+          "asset_no": 3105,
+          "asset_name": "008_matsuri_002_sailor_f_r",
+          "thumbnail": "008_Matsuri_002_Sailor_F_R_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "87BEEA896222C73710FB21EF60DB74DA97E38A11"
+        },
+        {
+          "id": 3207,
+          "category": 1,
+          "display_name": "夏色まつり",
+          "asset_no": 3207,
+          "asset_name": "008_maturi_004_yukata_f_a",
+          "thumbnail": "008_maturi_004_yukata_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "87BEEA896222C73710FB21EF60DB74DA97E38A11"
+        },
+        {
+          "id": 3307,
+          "category": 1,
+          "display_name": "夏色まつり",
+          "asset_no": 3307,
+          "asset_name": "008_maturi_005_mizugi_f_b",
+          "thumbnail": "008_maturi_005_mizugi_f_b_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "87BEEA896222C73710FB21EF60DB74DA97E38A11"
+        },
+        {
+          "id": 3607,
+          "category": 1,
+          "display_name": "夏色まつり",
+          "asset_no": 3607,
+          "asset_name": "008_maturi_006_santa_f_a",
+          "thumbnail": "008_maturi_006_santa_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "87BEEA896222C73710FB21EF60DB74DA97E38A11"
+        },
+        {
+          "id": 3707,
+          "category": 1,
+          "display_name": "夏色まつり",
+          "asset_no": 3707,
+          "asset_name": "008_maturi_007_nss_f_a",
+          "thumbnail": "008_maturi_007_nss_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "87BEEA896222C73710FB21EF60DB74DA97E38A11"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "office": 1,
+      "priority": 8,
+      "name": "湊あくあ",
+      "thumbnail": "009_Aqua_001_normal_icon",
+      "vrms": [
+        {
+          "id": 9,
+          "category": 1,
+          "display_name": "湊あくあ",
+          "asset_no": 9,
+          "asset_name": "009_aqua_001_normal",
+          "thumbnail": "009_Aqua_001_normal_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "4FDA8EED4B138154F03289DA45A8380F47604300"
+        },
+        {
+          "id": 3208,
+          "category": 1,
+          "display_name": "湊あくあ",
+          "asset_no": 3208,
+          "asset_name": "009_aqua_002_yukata_f_a",
+          "thumbnail": "009_aqua_002_yukata_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "4FDA8EED4B138154F03289DA45A8380F47604300"
+        },
+        {
+          "id": 3308,
+          "category": 1,
+          "display_name": "湊あくあ",
+          "asset_no": 3308,
+          "asset_name": "009_aqua_003_mizugi_f_a",
+          "thumbnail": "009_aqua_003_mizugi_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "4FDA8EED4B138154F03289DA45A8380F47604300"
+        },
+        {
+          "id": 3503,
+          "category": 1,
+          "display_name": "湊あくあ",
+          "asset_no": 3503,
+          "asset_name": "009_aqua_004_bj_f_a",
+          "thumbnail": "009_aqua_004_bj_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "4FDA8EED4B138154F03289DA45A8380F47604300"
+        },
+        {
+          "id": 3608,
+          "category": 1,
+          "display_name": "湊あくあ",
+          "asset_no": 3608,
+          "asset_name": "009_aqua_005_santa_f_a",
+          "thumbnail": "009_aqua_005_santa_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "4FDA8EED4B138154F03289DA45A8380F47604300"
+        },
+        {
+          "id": 3708,
+          "category": 1,
+          "display_name": "湊あくあ",
+          "asset_no": 3708,
+          "asset_name": "009_aqua_006_nss_f_c",
+          "thumbnail": "009_aqua_006_nss_f_c_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "4FDA8EED4B138154F03289DA45A8380F47604300"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "office": 1,
+      "priority": 9,
+      "name": "紫咲シオン",
+      "thumbnail": "010_Shion_001_normal_icon",
+      "vrms": [
+        {
+          "id": 10,
+          "category": 1,
+          "display_name": "紫咲シオン",
+          "asset_no": 10,
+          "asset_name": "010_shion_001_normal",
+          "thumbnail": "010_Shion_001_normal_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "DA1BD0C420D9719F6E902F06C1285AD3471B2C26"
+        },
+        {
+          "id": 3209,
+          "category": 1,
+          "display_name": "紫咲シオン",
+          "asset_no": 3209,
+          "asset_name": "010_shion_002_yukata_f_a",
+          "thumbnail": "010_shion_002_yukata_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "DA1BD0C420D9719F6E902F06C1285AD3471B2C26"
+        },
+        {
+          "id": 3309,
+          "category": 1,
+          "display_name": "紫咲シオン",
+          "asset_no": 3309,
+          "asset_name": "010_shion_003_mizugi_f_a",
+          "thumbnail": "010_shion_003_mizugi_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "DA1BD0C420D9719F6E902F06C1285AD3471B2C26"
+        },
+        {
+          "id": 3609,
+          "category": 1,
+          "display_name": "紫咲シオン",
+          "asset_no": 3609,
+          "asset_name": "010_shion_004_santa_f_a",
+          "thumbnail": "010_shion_004_santa_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "DA1BD0C420D9719F6E902F06C1285AD3471B2C26"
+        },
+        {
+          "id": 3709,
+          "category": 1,
+          "display_name": "紫咲シオン",
+          "asset_no": 3709,
+          "asset_name": "010_shion_005_nss_f_b",
+          "thumbnail": "010_shion_005_nss_f_b_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "DA1BD0C420D9719F6E902F06C1285AD3471B2C26"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "office": 1,
+      "priority": 11,
+      "name": "癒月ちょこ",
+      "thumbnail": "012_Choco_001_normal_icon",
+      "vrms": [
+        {
+          "id": 11,
+          "category": 1,
+          "display_name": "癒月ちょこ",
+          "asset_no": 11,
+          "asset_name": "012_choco_001_normal",
+          "thumbnail": "012_Choco_001_normal_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "282986ABE5A017CA76D2CC00953F5D171D414452"
+        },
+        {
+          "id": 3211,
+          "category": 1,
+          "display_name": "癒月ちょこ",
+          "asset_no": 3211,
+          "asset_name": "012_choco_002_yukata_f_a",
+          "thumbnail": "012_choco_002_yukata_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "282986ABE5A017CA76D2CC00953F5D171D414452"
+        },
+        {
+          "id": 3311,
+          "category": 1,
+          "display_name": "癒月ちょこ",
+          "asset_no": 3311,
+          "asset_name": "012_choco_003_mizugi_f_b",
+          "thumbnail": "012_choco_003_mizugi_f_b_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "282986ABE5A017CA76D2CC00953F5D171D414452"
+        },
+        {
+          "id": 3504,
+          "category": 1,
+          "display_name": "癒月ちょこ",
+          "asset_no": 3504,
+          "asset_name": "012_choco_004_bj_f_a",
+          "thumbnail": "012_choco_004_bj_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "282986ABE5A017CA76D2CC00953F5D171D414452"
+        },
+        {
+          "id": 3611,
+          "category": 1,
+          "display_name": "癒月ちょこ",
+          "asset_no": 3611,
+          "asset_name": "012_choco_005_santa_f_a",
+          "thumbnail": "012_choco_005_santa_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "282986ABE5A017CA76D2CC00953F5D171D414452"
+        },
+        {
+          "id": 3711,
+          "category": 1,
+          "display_name": "癒月ちょこ",
+          "asset_no": 3711,
+          "asset_name": "012_choco_006_nss_f_a",
+          "thumbnail": "012_choco_006_nss_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "282986ABE5A017CA76D2CC00953F5D171D414452"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "office": 1,
+      "priority": 12,
+      "name": "大空スバル",
+      "thumbnail": "025_Subaru_001_B15yhQhxM8KQ5whF",
+      "vrms": [
+        {
+          "id": 906,
+          "category": 1,
+          "display_name": "大空スバル",
+          "asset_no": 27,
+          "asset_name": "013_subaru_001_normal",
+          "thumbnail": "025_Subaru_001_B15yhQhxM8KQ5whF",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "DFA9E9A29521FA803371E5F7E05E33906ACEDDE5"
+        },
+        {
+          "id": 3115,
+          "category": 1,
+          "display_name": "大空スバル",
+          "asset_no": 3115,
+          "asset_name": "013_subaru_002_sailor_f_r",
+          "thumbnail": "013_Subaru_002_Sailor_F_R_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "DFA9E9A29521FA803371E5F7E05E33906ACEDDE5"
+        },
+        {
+          "id": 3212,
+          "category": 1,
+          "display_name": "大空スバル",
+          "asset_no": 3212,
+          "asset_name": "013_subaru_004_yukata_f_a",
+          "thumbnail": "013_subaru_004_yukata_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "DFA9E9A29521FA803371E5F7E05E33906ACEDDE5"
+        },
+        {
+          "id": 3312,
+          "category": 1,
+          "display_name": "大空スバル",
+          "asset_no": 3312,
+          "asset_name": "013_subaru_005_mizugi_f_b",
+          "thumbnail": "013_subaru_005_mizugi_f_b_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "DFA9E9A29521FA803371E5F7E05E33906ACEDDE5"
+        },
+        {
+          "id": 3505,
+          "category": 1,
+          "display_name": "大空スバル",
+          "asset_no": 3505,
+          "asset_name": "013_subaru_006_bj_f_a",
+          "thumbnail": "013_subaru_006_bj_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "DFA9E9A29521FA803371E5F7E05E33906ACEDDE5"
+        },
+        {
+          "id": 3612,
+          "category": 1,
+          "display_name": "大空スバル",
+          "asset_no": 3612,
+          "asset_name": "013_subaru_007_santa_f_a",
+          "thumbnail": "013_subaru_007_santa_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "DFA9E9A29521FA803371E5F7E05E33906ACEDDE5"
+        },
+        {
+          "id": 3712,
+          "category": 1,
+          "display_name": "大空スバル",
+          "asset_no": 3712,
+          "asset_name": "013_subaru_008_nss_f_a",
+          "thumbnail": "013_subaru_008_nss_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "DFA9E9A29521FA803371E5F7E05E33906ACEDDE5"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "office": 1,
+      "priority": 13,
+      "name": "AZKi",
+      "thumbnail": "022_Azki_003_normal_icon",
+      "vrms": [
+        {
+          "id": 15,
+          "category": 1,
+          "display_name": "AZKi",
+          "asset_no": 67,
+          "asset_name": "022_azki_003_normal",
+          "thumbnail": "022_Azki_003_normal_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "53A96FFB28DBE2384ADA157A7B238F6B54DBB618"
+        },
+        {
+          "id": 3220,
+          "category": 1,
+          "display_name": "AZKi",
+          "asset_no": 3220,
+          "asset_name": "022_azki_004_yukata_f_a",
+          "thumbnail": "022_azki_004_yukata_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "53A96FFB28DBE2384ADA157A7B238F6B54DBB618"
+        },
+        {
+          "id": 3320,
+          "category": 1,
+          "display_name": "AZKi",
+          "asset_no": 3320,
+          "asset_name": "022_azki_005_mizugi_f_b",
+          "thumbnail": "022_azki_005_mizugi_f_b_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "53A96FFB28DBE2384ADA157A7B238F6B54DBB618"
+        },
+        {
+          "id": 3620,
+          "category": 1,
+          "display_name": "AZKi",
+          "asset_no": 3620,
+          "asset_name": "022_azki_006_santa_f_a",
+          "thumbnail": "022_azki_006_santa_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "53A96FFB28DBE2384ADA157A7B238F6B54DBB618"
+        },
+        {
+          "id": 3720,
+          "category": 1,
+          "display_name": "AZKi",
+          "asset_no": 3720,
+          "asset_name": "022_azki_007_nss_f_bc",
+          "thumbnail": "022_azki_007_nss_f_bc_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "53A96FFB28DBE2384ADA157A7B238F6B54DBB618"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "office": 1,
+      "priority": 14,
+      "name": "大神ミオ",
+      "thumbnail": "026_Mio_001_EzuMxplZYBC5NZPY",
+      "vrms": [
+        {
+          "id": 907,
+          "category": 1,
+          "display_name": "大神ミオ",
+          "asset_no": 28,
+          "asset_name": "014_mio_001_normal",
+          "thumbnail": "026_Mio_001_EzuMxplZYBC5NZPY",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "DB91D7A7CD2528964A5BD83F82FDD62971B24562"
+        },
+        {
+          "id": 3116,
+          "category": 1,
+          "display_name": "大神ミオ",
+          "asset_no": 3116,
+          "asset_name": "014_mio_002_sailor_f_r",
+          "thumbnail": "014_Mio_002_Sailor_F_R_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "DB91D7A7CD2528964A5BD83F82FDD62971B24562"
+        },
+        {
+          "id": 3213,
+          "category": 1,
+          "display_name": "大神ミオ",
+          "asset_no": 3213,
+          "asset_name": "014_mio_004_yukata_f_a",
+          "thumbnail": "014_mio_004_yukata_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "DB91D7A7CD2528964A5BD83F82FDD62971B24562"
+        },
+        {
+          "id": 3313,
+          "category": 1,
+          "display_name": "大神ミオ",
+          "asset_no": 3313,
+          "asset_name": "014_mio_005_mizugi_f_b",
+          "thumbnail": "014_mio_005_mizugi_f_b_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "DB91D7A7CD2528964A5BD83F82FDD62971B24562"
+        },
+        {
+          "id": 3506,
+          "category": 1,
+          "display_name": "大神ミオ",
+          "asset_no": 3506,
+          "asset_name": "014_mio_006_bj_f_a",
+          "thumbnail": "014_mio_006_bj_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "DB91D7A7CD2528964A5BD83F82FDD62971B24562"
+        },
+        {
+          "id": 3613,
+          "category": 1,
+          "display_name": "大神ミオ",
+          "asset_no": 3613,
+          "asset_name": "014_mio_007_santa_f_a",
+          "thumbnail": "014_mio_007_santa_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "DB91D7A7CD2528964A5BD83F82FDD62971B24562"
+        },
+        {
+          "id": 3713,
+          "category": 1,
+          "display_name": "大神ミオ",
+          "asset_no": 3713,
+          "asset_name": "014_mio_008_nss_f_b",
+          "thumbnail": "014_mio_008_nss_f_b_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "DB91D7A7CD2528964A5BD83F82FDD62971B24562"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "office": 1,
+      "priority": 15,
+      "name": "さくらみこ",
+      "thumbnail": "003_Miko_002_normal_icon",
+      "vrms": [
+        {
+          "id": 3,
+          "category": 1,
+          "display_name": "さくらみこ(巫女服)",
+          "asset_no": 4,
+          "asset_name": "003_miko_002_normal",
+          "thumbnail": "003_Miko_002_normal_icon",
+          "parameter": "{\"angleLimitHipDot\": 0.4, \"angleLimitLegDot\": 0.9, \"angleLimitLegCenterDot\": 0.9}",
+          "priority": 1,
+          "hash": "D9DA14331C7702F43AD087F866A94296A8F0C338"
+        },
+        {
+          "id": 4,
+          "category": 1,
+          "display_name": "さくらみこ",
+          "asset_no": 3,
+          "asset_name": "003_miko_001_normal",
+          "thumbnail": "003_Miko_001_normal_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "86D640CE2C54B46E451DC309F5277E13C1BBB32C"
+        },
+        {
+          "id": 1624,
+          "category": 1,
+          "display_name": "青上高校旧制服",
+          "asset_no": 42,
+          "asset_name": "003_miko_003_sailorfs",
+          "thumbnail": "003_miko_003_sailorfs_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "5047E6FF61CE7CAA30D2D1511C135B376E7F0C0A"
+        },
+        {
+          "id": 3102,
+          "category": 1,
+          "display_name": "青上高校旧制服",
+          "asset_no": 3102,
+          "asset_name": "003_miko_004_sailor_f_r",
+          "thumbnail": "003_Miko_004_Sailor_F_R_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "5047E6FF61CE7CAA30D2D1511C135B376E7F0C0A"
+        },
+        {
+          "id": 3202,
+          "category": 1,
+          "display_name": "青上高校旧制服",
+          "asset_no": 3202,
+          "asset_name": "003_miko_005_yukata_f_a",
+          "thumbnail": "003_miko_005_yukata_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "5047E6FF61CE7CAA30D2D1511C135B376E7F0C0A"
+        },
+        {
+          "id": 3302,
+          "category": 1,
+          "display_name": "青上高校旧制服",
+          "asset_no": 3302,
+          "asset_name": "003_miko_006_mizugi_f_a",
+          "thumbnail": "003_miko_006_mizugi_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "5047E6FF61CE7CAA30D2D1511C135B376E7F0C0A"
+        },
+        {
+          "id": 3500,
+          "category": 1,
+          "display_name": "青上高校旧制服",
+          "asset_no": 3500,
+          "asset_name": "003_miko_007_bj_f_a",
+          "thumbnail": "003_miko_007_bj_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "5047E6FF61CE7CAA30D2D1511C135B376E7F0C0A"
+        },
+        {
+          "id": 3602,
+          "category": 1,
+          "display_name": "青上高校旧制服",
+          "asset_no": 3602,
+          "asset_name": "003_miko_008_santa_f_a",
+          "thumbnail": "003_miko_008_santa_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "5047E6FF61CE7CAA30D2D1511C135B376E7F0C0A"
+        },
+        {
+          "id": 3702,
+          "category": 1,
+          "display_name": "青上高校旧制服",
+          "asset_no": 3702,
+          "asset_name": "003_miko_009_nss_f_b",
+          "thumbnail": "003_miko_009_nss_f_b_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "5047E6FF61CE7CAA30D2D1511C135B376E7F0C0A"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "office": 1,
+      "priority": 16,
+      "name": "猫又おかゆ",
+      "thumbnail": "015_Okayu_001_normal_icon",
+      "vrms": [
+        {
+          "id": 12,
+          "category": 1,
+          "display_name": "猫又おかゆ",
+          "asset_no": 12,
+          "asset_name": "015_okayu_001_normal",
+          "thumbnail": "015_Okayu_001_normal_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "882293153A2FF8CD190CA1E01099F020F34CAE87"
+        },
+        {
+          "id": 3106,
+          "category": 1,
+          "display_name": "猫又おかゆ",
+          "asset_no": 3106,
+          "asset_name": "015_okayu_003_sailor_f_r",
+          "thumbnail": "015_Okayu_003_Sailor_F_R_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "882293153A2FF8CD190CA1E01099F020F34CAE87"
+        },
+        {
+          "id": 3214,
+          "category": 1,
+          "display_name": "猫又おかゆ",
+          "asset_no": 3214,
+          "asset_name": "015_okayu_004_yukata_f_a",
+          "thumbnail": "015_okayu_004_yukata_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "882293153A2FF8CD190CA1E01099F020F34CAE87"
+        },
+        {
+          "id": 3314,
+          "category": 1,
+          "display_name": "猫又おかゆ",
+          "asset_no": 3314,
+          "asset_name": "015_okayu_005_mizugi_f_a",
+          "thumbnail": "015_okayu_005_mizugi_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "882293153A2FF8CD190CA1E01099F020F34CAE87"
+        },
+        {
+          "id": 3507,
+          "category": 1,
+          "display_name": "猫又おかゆ",
+          "asset_no": 3507,
+          "asset_name": "015_okayu_006_bj_f_a",
+          "thumbnail": "015_okayu_006_bj_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "882293153A2FF8CD190CA1E01099F020F34CAE87"
+        },
+        {
+          "id": 3614,
+          "category": 1,
+          "display_name": "猫又おかゆ",
+          "asset_no": 3614,
+          "asset_name": "015_okayu_007_santa_f_a",
+          "thumbnail": "015_okayu_007_santa_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "882293153A2FF8CD190CA1E01099F020F34CAE87"
+        },
+        {
+          "id": 3714,
+          "category": 1,
+          "display_name": "猫又おかゆ",
+          "asset_no": 3714,
+          "asset_name": "015_okayu_008_nss_f_c",
+          "thumbnail": "015_okayu_008_nss_f_c_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "882293153A2FF8CD190CA1E01099F020F34CAE87"
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "office": 1,
+      "priority": 19,
+      "name": "兎田ぺこら",
+      "thumbnail": "017_Pekora_001_normal_icon",
+      "vrms": [
+        {
+          "id": 2037,
+          "category": 1,
+          "display_name": "兎田ぺこら",
+          "asset_no": 62,
+          "asset_name": "017_pekora_001_normal",
+          "thumbnail": "017_Pekora_001_normal_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "40FB19487EFF0B86312C33EA41AA93BAB5B19F69"
+        },
+        {
+          "id": 3122,
+          "category": 1,
+          "display_name": "兎田ぺこら",
+          "asset_no": 3122,
+          "asset_name": "017_pekora_002_sailor_f_r",
+          "thumbnail": "017_Pekora_002_Sailor_F_R_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "40FB19487EFF0B86312C33EA41AA93BAB5B19F69"
+        },
+        {
+          "id": 3216,
+          "category": 1,
+          "display_name": "兎田ぺこら",
+          "asset_no": 3216,
+          "asset_name": "017_pekora_004_yukata_f_a",
+          "thumbnail": "017_pekora_004_yukata_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "40FB19487EFF0B86312C33EA41AA93BAB5B19F69"
+        },
+        {
+          "id": 3316,
+          "category": 1,
+          "display_name": "兎田ぺこら",
+          "asset_no": 3316,
+          "asset_name": "017_pekora_005_mizugi_f_a",
+          "thumbnail": "017_pekora_005_mizugi_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "40FB19487EFF0B86312C33EA41AA93BAB5B19F69"
+        },
+        {
+          "id": 3509,
+          "category": 1,
+          "display_name": "兎田ぺこら",
+          "asset_no": 3509,
+          "asset_name": "017_pekora_006_bj_f_a",
+          "thumbnail": "017_pekora_006_bj_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "40FB19487EFF0B863             12C33EA41AA93BAB5B19F69"
+        },
+        {
+          "id": 3616,
+          "category": 1,
+          "display_name": "兎田ぺこら",
+          "asset_no": 3616,
+          "asset_name": "017_pekora_007_santa_f_a",
+          "thumbnail": "017_pekora_007_santa_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "40FB19487EFF0B86312C33EA41AA93BAB5B19F69"
+        },
+        {
+          "id": 3716,
+          "category": 1,
+          "display_name": "兎田ぺこら",
+          "asset_no": 3716,
+          "asset_name": "017_pekora_008_nss_f_b",
+          "thumbnail": "017_pekora_008_nss_f_b_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "40FB19487EFF0B86312C33EA41AA93BAB5B19F69"
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "office": 1,
+      "priority": 20,
+      "name": "不知火フレア",
+      "thumbnail": "019_Flare_002_normal_icon",
+      "vrms": [
+        {
+          "id": 1859,
+          "category": 1,
+          "display_name": "不知火フレア",
+          "asset_no": 58,
+          "asset_name": "019_flare_002_normal",
+          "thumbnail": "019_Flare_002_normal_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "9AE078055975A9CF227054B2B064F0B0A281B400"
+        },
+        {
+          "id": 3120,
+          "category": 1,
+          "display_name": "不知火フレア",
+          "asset_no": 3120,
+          "asset_name": "019_flare_003_sailor_f_r",
+          "thumbnail": "019_Flare_003_Sailor_F_R_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "9AE078055975A9CF227054B2B064F0B0A281B400"
+        },
+        {
+          "id": 3217,
+          "category": 1,
+          "display_name": "不知火フレア",
+          "asset_no": 3217,
+          "asset_name": "019_flare_005_yukata_f_a",
+          "thumbnail": "019_flare_005_yukata_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "9AE078055975A9CF227054B2B064F0B0A281B400"
+        },
+        {
+          "id": 3317,
+          "category": 1,
+          "display_name": "不知火フレア",
+          "asset_no": 3317,
+          "asset_name": "019_flare_006_mizugi_f_b",
+          "thumbnail": "019_flare_006_mizugi_f_b_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "9AE078055975A9CF227054B2B064F0B0A281B400"
+        },
+        {
+          "id": 3510,
+          "category": 1,
+          "display_name": "不知火フレア",
+          "asset_no": 3510,
+          "asset_name": "019_flare_007_bj_f_a",
+          "thumbnail": "019_flare_007_bj_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "9AE078055975A9CF227054B2B064F0B0A281B400"
+        },
+        {
+          "id": 3617,
+          "category": 1,
+          "display_name": "不知火フレア",
+          "asset_no": 3617,
+          "asset_name": "019_flare_008_santa_f_a",
+          "thumbnail": "019_flare_008_santa_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "9AE078055975A9CF227054B2B064F0B0A281B400"
+        },
+        {
+          "id": 3717,
+          "category": 1,
+          "display_name": "不知火フレア",
+          "asset_no": 3717,
+          "asset_name": "019_flare_009_nss_f_c",
+          "thumbnail": "019_flare_009_nss_f_c_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "9AE078055975A9CF227054B2B064F0B0A281B400"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "office": 1,
+      "priority": 21,
+      "name": "白銀ノエル",
+      "thumbnail": "027_Noel_001_ipL9imWMh2MH3BN3",
+      "vrms": [
+        {
+          "id": 908,
+          "category": 1,
+          "display_name": "白銀ノエル",
+          "asset_no": 29,
+          "asset_name": "020_noel_001_normal",
+          "thumbnail": "027_Noel_001_ipL9imWMh2MH3BN3",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "17D072256E80B4284CC722D5DDBC297D4070BD6C"
+        },
+        {
+          "id": 1629,
+          "category": 1,
+          "display_name": "青上高校旧制服",
+          "asset_no": 47,
+          "asset_name": "020_noel_002_sailorfs",
+          "thumbnail": "020_noel_002_sailorfs_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "9D8696A44E625446854E663A1889592BE0C10A10"
+        },
+        {
+          "id": 3117,
+          "category": 1,
+          "display_name": "白銀ノエル",
+          "asset_no": 3117,
+          "asset_name": "020_noel_003_sailor_f_r",
+          "thumbnail": "020_Noel_003_Sailor_F_R_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "9D8696A44E625446854E663A1889592BE0C10A10"
+        },
+        {
+          "id": 3218,
+          "category": 1,
+          "display_name": "白銀ノエル",
+          "asset_no": 3218,
+          "asset_name": "020_noel_004_yukata_f_a",
+          "thumbnail": "020_noel_004_yukata_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "9D8696A44E625446854E663A1889592BE0C10A10"
+        },
+        {
+          "id": 3318,
+          "category": 1,
+          "display_name": "白銀ノエル",
+          "asset_no": 3318,
+          "asset_name": "020_noel_005_mizugi_f_b",
+          "thumbnail": "020_noel_005_mizugi_f_b_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "9D8696A44E625446854E663A1889592BE0C10A10"
+        },
+        {
+          "id": 3511,
+          "category": 1,
+          "display_name": "白銀ノエル",
+          "asset_no": 3511,
+          "asset_name": "020_noel_006_bj_f_a",
+          "thumbnail": "020_noel_006_bj_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "9D8696A44E625446854E663A1889592BE0C10A10"
+        },
+        {
+          "id": 3618,
+          "category": 1,
+          "display_name": "白銀ノエル",
+          "asset_no": 3618,
+          "asset_name": "020_noel_007_santa_f_a",
+          "thumbnail": "020_noel_007_santa_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "9D8696A44E625446854E663A1889592BE0C10A10"
+        },
+        {
+          "id": 3718,
+          "category": 1,
+          "display_name": "白銀ノエル",
+          "asset_no": 3718,
+          "asset_name": "020_noel_008_nss_f_a",
+          "thumbnail": "020_noel_008_nss_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "9D8696A44E625446854E663A1889592BE0C10A10"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "office": 1,
+      "priority": 22,
+      "name": "宝鐘マリン",
+      "thumbnail": "021_Marine_001_normal_icon",
+      "vrms": [
+        {
+          "id": 14,
+          "category": 1,
+          "display_name": "宝鐘マリン",
+          "asset_no": 14,
+          "asset_name": "021_marine_001_nodecoration",
+          "thumbnail": "021_Marine_001_normal_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "4FF4AD27E1D9147D3D2485CD51E5D6F9498817DD"
+        },
+        {
+          "id": 3108,
+          "category": 1,
+          "display_name": "宝鐘マリン",
+          "asset_no": 3108,
+          "asset_name": "021_marine_002_sailor_f_r",
+          "thumbnail": "021_Marine_002_Sailor_F_R_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "4FF4AD27E1D9147D3D2485CD51E5D6F9498817DD"
+        },
+        {
+          "id": 3219,
+          "category": 1,
+          "display_name": "宝鐘マリン",
+          "asset_no": 3219,
+          "asset_name": "021_marine_004_yukata_f_a",
+          "thumbnail": "021_marine_004_yukata_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "4FF4AD27E1D9147D3D2485CD51E5D6F9498817DD"
+        },
+        {
+          "id": 3319,
+          "category": 1,
+          "display_name": "宝鐘マリン",
+          "asset_no": 3319,
+          "asset_name": "021_marine_005_mizugi_f_b",
+          "thumbnail": "021_marine_005_mizugi_f_b_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "4FF4AD27E1D9147D3D2485CD51E5D6F9498817DD"
+        },
+        {
+          "id": 3512,
+          "category": 1,
+          "display_name": "宝鐘マリン",
+          "asset_no": 3512,
+          "asset_name": "021_marine_006_bj_f_a",
+          "thumbnail": "021_marine_006_bj_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "4FF4AD27E1D9147D3D2485CD51E5D6F9498817DD"
+        },
+        {
+          "id": 3619,
+          "category": 1,
+          "display_name": "宝鐘マリン",
+          "asset_no": 3619,
+          "asset_name": "021_marine_007_santa_f_a",
+          "thumbnail": "021_marine_007_santa_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "4FF4AD27E1D9147D3D2485CD51E5D6F9498817DD"
+        },
+        {
+          "id": 3719,
+          "category": 1,
+          "display_name": "宝鐘マリン",
+          "asset_no": 3719,
+          "asset_name": "021_marine_008_nss_f_a",
+          "thumbnail": "021_marine_008_nss_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "4FF4AD27E1D9147D3D2485CD51E5D6F9498817DD"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "office": 1,
+      "priority": 23,
+      "name": "天音かなた",
+      "thumbnail": "034_Kanata_001_normal_icon",
+      "vrms": [
+        {
+          "id": 17,
+          "category": 1,
+          "display_name": "天音かなた",
+          "asset_no": 17,
+          "asset_name": "034_kanata_001_normal",
+          "thumbnail": "034_Kanata_001_normal_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "2F1C99F580EECD80C0669FBCDA475F3CC012043F"
+        },
+        {
+          "id": 3109,
+          "category": 1,
+          "display_name": "天音かなた",
+          "asset_no": 3109,
+          "asset_name": "034_kanata_002_sailor_f_r",
+          "thumbnail": "034_Kanata_002_Sailor_F_R_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "2F1C99F580EECD80C0669FBCDA475F3CC012043F"
+        },
+        {
+          "id": 3222,
+          "category": 1,
+          "display_name": "天音かなた",
+          "asset_no": 3222,
+          "asset_name": "034_kanata_004_yukata_f_a",
+          "thumbnail": "034_kanata_004_yukata_f_a_04_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "2F1C99F580EECD80C0669FBCDA475F3CC012043F"
+        },
+        {
+          "id": 3322,
+          "category": 1,
+          "display_name": "天音かなた",
+          "asset_no": 3322,
+          "asset_name": "034_kanata_005_mizugi_f_a",
+          "thumbnail": "034_kanata_005_mizugi_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "2F1C99F580EECD80C0669FBCDA475F3CC012043F"
+        },
+        {
+          "id": 3513,
+          "category": 1,
+          "display_name": "天音かなた",
+          "asset_no": 3513,
+          "asset_name": "034_kanata_006_bj_f_a",
+          "thumbnail": "034_kanata_006_bj_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "2F1C99F580EECD80C0669FBCDA475F3CC012043F"
+        },
+        {
+          "id": 3622,
+          "category": 1,
+          "display_name": "天音かなた",
+          "asset_no": 3622,
+          "asset_name": "034_kanata_007_santa_f_a",
+          "thumbnail": "034_kanata_007_santa_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "2F1C99F580EECD80C0669FBCDA475F3CC012043F"
+        },
+        {
+          "id": 3722,
+          "category": 1,
+          "display_name": "天音かなた",
+          "asset_no": 3722,
+          "asset_name": "034_kanata_008_nss_f_c",
+          "thumbnail": "034_kanata_008_nss_f_c_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "2F1C99F580EECD80C0669FBCDA475F3CC012043F"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "office": 1,
+      "priority": 24,
+      "name": "角巻わため",
+      "thumbnail": "036_Watame_001_normal_icon",
+      "vrms": [
+        {
+          "id": 19,
+          "category": 1,
+          "display_name": "角巻わため",
+          "asset_no": 19,
+          "asset_name": "036_watame_001_normal",
+          "thumbnail": "036_Watame_001_normal_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "CC305CFDCE656EF0EB554D87C6150126765DA991"
+        },
+        {
+          "id": 3223,
+          "category": 1,
+          "display_name": "角巻わため",
+          "asset_no": 3223,
+          "asset_name": "036_watame_002_yukata_f_a",
+          "thumbnail": "036_watame_002_yukata_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "CC305CFDCE656EF0EB554D87C6150126765DA991"
+        },
+        {
+          "id": 3323,
+          "category": 1,
+          "display_name": "角巻わため",
+          "asset_no": 3323,
+          "asset_name": "036_watame_003_mizugi_f_a",
+          "thumbnail": "036_watame_003_mizugi_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "CC305CFDCE656EF0EB554D87C6150126765DA991"
+        },
+        {
+          "id": 3514,
+          "category": 1,
+          "display_name": "角巻わため",
+          "asset_no": 3514,
+          "asset_name": "036_watame_004_bj_f_a",
+          "thumbnail": "036_watame_004_bj_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "CC305CFDCE656EF0EB554D87C6150126765DA991"
+        },
+        {
+          "id": 3623,
+          "category": 1,
+          "display_name": "角巻わため",
+          "asset_no": 3623,
+          "asset_name": "036_watame_005_santa_f_a",
+          "thumbnail": "036_watame_005_santa_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "CC305CFDCE656EF0EB554D87C6150126765DA991"
+        },
+        {
+          "id": 3723,
+          "category": 1,
+          "display_name": "角巻わため",
+          "asset_no": 3723,
+          "asset_name": "036_watame_006_nss_f_a",
+          "thumbnail": "036_watame_006_nss_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "CC305CFDCE656EF0EB554D87C6150126765DA991"
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "office": 1,
+      "priority": 25,
+      "name": "常闇トワ",
+      "thumbnail": "052_Towa_001_TXKy8mWKrCupKjJR",
+      "vrms": [
+        {
+          "id": 1311,
+          "category": 1,
+          "display_name": "常闇トワ",
+          "asset_no": 39,
+          "asset_name": "037_towa_001_normal",
+          "thumbnail": "052_Towa_001_TXKy8mWKrCupKjJR",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "999AFBAD2673B4ACEA86B5F1281FFE66FB49DEA2"
+        },
+        {
+          "id": 3119,
+          "category": 1,
+          "display_name": "常闇トワ",
+          "asset_no": 3119,
+          "asset_name": "037_towa_002_sailor_f_r",
+          "thumbnail": "037_Towa_002_Sailor_F_R_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "999AFBAD2673B4ACEA86B5F1281FFE66FB49DEA2"
+        },
+        {
+          "id": 3224,
+          "category": 1,
+          "display_name": "常闇トワ",
+          "asset_no": 3224,
+          "asset_name": "037_towa_004_yukata_f_a",
+          "thumbnail": "037_towa_004_yukata_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "999AFBAD2673B4ACEA86B5F1281FFE66FB49DEA2"
+        },
+        {
+          "id": 3515,
+          "category": 1,
+          "display_name": "常闇トワ",
+          "asset_no": 3515,
+          "asset_name": "037_towa_006_bj_f_a",
+          "thumbnail": "037_towa_006_bj_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "999AFBAD2673B4ACEA86B5F1281FFE66FB49DEA2"
+        },
+        {
+          "id": 3624,
+          "category": 1,
+          "display_name": "常闇トワ",
+          "asset_no": 3624,
+          "asset_name": "037_towa_007_santa_f_a",
+          "thumbnail": "037_towa_007_santa_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "999AFBAD2673B4ACEA86B5F1281FFE66FB49DEA2"
+        },
+        {
+          "id": 3724,
+          "category": 1,
+          "display_name": "常闇トワ",
+          "asset_no": 3724,
+          "asset_name": "037_towa_008_nss_f_b",
+          "thumbnail": "037_towa_008_nss_f_b_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "999AFBAD2673B4ACEA86B5F1281FFE66FB49DEA2"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "office": 1,
+      "priority": 26,
+      "name": "星街すいせい",
+      "thumbnail": "023_Suisei_001_normal_icon",
+      "vrms": [
+        {
+          "id": 1903,
+          "category": 1,
+          "display_name": "星街すいせい",
+          "asset_no": 1903,
+          "asset_name": "023_suisei_001_normal",
+          "thumbnail": "023_Suisei_001_normal_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "45A14BC85AB55D9D18133BEBE5466ADBB9A20321"
+        },
+        {
+          "id": 3621,
+          "category": 1,
+          "display_name": "santaすいせい",
+          "asset_no": 3621,
+          "asset_name": "023_suisei_006_santa_f_a",
+          "thumbnail": "023_suisei_006_santa_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "45A14BC85AB55D9D18133BEBE5466ADBB9A20321"
+        },
+        {
+          "id": 3321,
+          "category": 1,
+          "display_name": "泳装すいせい",
+          "asset_no": 3321,
+          "asset_name": "023_suisei_005_mizugi_f_b",
+          "thumbnail": "023_suisei_005_mizugi_f_b_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "45A14BC85AB55D9D18133BEBE5466ADBB9A20321"
+        },
+        {
+          "id": 3721,
+          "category": 1,
+          "display_name": "偶像服すいせい",
+          "asset_no": 3721,
+          "asset_name": "023_suisei_007_nss_f_c",
+          "thumbnail": "023_suisei_007_nss_f_c_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "45A14BC85AB55D9D18133BEBE5466ADBB9A20321"
+        },
+        {
+          "id": 3221,
+          "category": 1,
+          "display_name": "偶像服すいせい",
+          "asset_no": 3221,
+          "asset_name": "023_suisei_004_yukata_f_a",
+          "thumbnail": "023_suisei_004_yukata_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "45A14BC85AB55D9D18133BEBE5466ADBB9A20321"
+        },
+        {
+          "id": 3121,
+          "category": 1,
+          "display_name": "青上",
+          "asset_no": 3121,
+          "asset_name": "023_suisei_002_sailor_f_r",
+          "thumbnail": "023_suisei_002_sailor_f_r_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "45A14BC85AB55D9D18133BEBE5466ADBB9A20321"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "office": 1,
+      "priority": 27,
+      "name": "雪花ラミィ",
+      "thumbnail": "039_lamy_001_normal_icon",
+      "vrms": [
+        {
+          "id": 20,
+          "category": 1,
+          "display_name": "雪花ラミィ",
+          "asset_no": 20,
+          "asset_name": "039_lamy_001_normal",
+          "thumbnail": "039_lamy_001_normal_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "0988F4D21CC5F3AC629B73EF6D702D6BB2E4D4A9"
+        },
+        {
+          "id": 3110,
+          "category": 1,
+          "display_name": "雪花ラミィ",
+          "asset_no": 3110,
+          "asset_name": "039_lamy_002_sailor_f_r",
+          "thumbnail": "039_Lamy_002_Sailor_F_R_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "0988F4D21CC5F3AC629B73EF6D702D6BB2E4D4A9"
+        },
+        {
+          "id": 3226,
+          "category": 1,
+          "display_name": "雪花ラミィ",
+          "asset_no": 3226,
+          "asset_name": "039_lamy_004_yukata_f_a",
+          "thumbnail": "039_lamy_004_yukata_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "0988F4D21CC5F3AC629B73EF6D702D6BB2E4D4A9"
+        },
+        {
+          "id": 3325,
+          "category": 1,
+          "display_name": "雪花ラミィ",
+          "asset_no": 3325,
+          "asset_name": "039_lamy_005_mizugi_f_b",
+          "thumbnail": "039_lamy_005_mizugi_f_b_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "0988F4D21CC5F3AC629B73EF6D702D6BB2E4D4A9"
+        },
+        {
+          "id": 3517,
+          "category": 1,
+          "display_name": "雪花ラミィ",
+          "asset_no": 3517,
+          "asset_name": "039_lamy_006_bj_f_a",
+          "thumbnail": "039_lamy_006_bj_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "0988F4D21CC5F3AC629B73EF6D702D6BB2E4D4A9"
+        },
+        {
+          "id": 3626,
+          "category": 1,
+          "display_name": "雪花ラミィ",
+          "asset_no": 3626,
+          "asset_name": "039_lamy_007_santa_f_a",
+          "thumbnail": "039_lamy_007_santa_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "0988F4D21CC5F3AC629B73EF6D702D6BB2E4D4A9"
+        },
+        {
+          "id": 3726,
+          "category": 1,
+          "display_name": "雪花ラミィ",
+          "asset_no": 3726,
+          "asset_name": "039_lamy_008_nss_f_b",
+          "thumbnail": "039_lamy_008_nss_f_b_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "0988F4D21CC5F3AC629B73EF6D702D6BB2E4D4A9"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "office": 1,
+      "priority": 28,
+      "name": "桃鈴ねね",
+      "thumbnail": "040_nene_001_normal_icon",
+      "vrms": [
+        {
+          "id": 21,
+          "category": 1,
+          "display_name": "桃鈴ねね",
+          "asset_no": 21,
+          "asset_name": "040_nene_001_normal",
+          "thumbnail": "040_nene_001_normal_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "6228F35D01C3C640546208F83C310F26289578EF"
+        },
+        {
+          "id": 3111,
+          "category": 1,
+          "display_name": "桃鈴ねね",
+          "asset_no": 3111,
+          "asset_name": "040_nene_002_sailor_f_r",
+          "thumbnail": "040_Nene_002_Sailor_F_R_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "6228F35D01C3C640546208F83C310F26289578EF"
+        },
+        {
+          "id": 3227,
+          "category": 1,
+          "display_name": "桃鈴ねね",
+          "asset_no": 3227,
+          "asset_name": "040_nene_004_yukata_f_a",
+          "thumbnail": "040_nene_004_yukata_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "6228F35D01C3C640546208F83C310F26289578EF"
+        },
+        {
+          "id": 3326,
+          "category": 1,
+          "display_name": "桃鈴ねね",
+          "asset_no": 3326,
+          "asset_name": "040_nene_005_mizugi_f_a",
+          "thumbnail": "040_nene_005_mizugi_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "6228F35D01C3C640546208F83C310F26289578EF"
+        },
+        {
+          "id": 3627,
+          "category": 1,
+          "display_name": "桃鈴ねね",
+          "asset_no": 3627,
+          "asset_name": "040_nene_006_santa_f_a",
+          "thumbnail": "040_nene_006_santa_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "6228F35D01C3C640546208F83C310F26289578EF"
+        },
+        {
+          "id": 3727,
+          "category": 1,
+          "display_name": "桃鈴ねね",
+          "asset_no": 3727,
+          "asset_name": "040_nene_007_nss_f_c",
+          "thumbnail": "040_nene_007_nss_f_c_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "6228F35D01C3C640546208F83C310F26289578EF"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "office": 1,
+      "priority": 29,
+      "name": "獅白ぼたん",
+      "thumbnail": "041_botan_001_normal_icon",
+      "vrms": [
+        {
+          "id": 22,
+          "category": 1,
+          "display_name": "獅白ぼたん",
+          "asset_no": 22,
+          "asset_name": "041_botan_001_normal",
+          "thumbnail": "041_botan_001_normal_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "0180C9DEE8B051CE253937C0140733694205DD6E"
+        },
+        {
+          "id": 1632,
+          "category": 1,
+          "display_name": "青上高校旧制服",
+          "asset_no": 50,
+          "asset_name": "041_botan_002_sailorfs",
+          "thumbnail": "041_botan_002_sailorfs_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "BD52AC0CA6965ED9A41D2A43326EC531C5160C6E"
+        },
+        {
+          "id": 3112,
+          "category": 1,
+          "display_name": "青上高校旧制服",
+          "asset_no": 3112,
+          "asset_name": "041_botan_003_sailor_f_r",
+          "thumbnail": "041_Botan_003_Sailor_F_R_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "BD52AC0CA6965ED9A41D2A43326EC531C5160C6E"
+        },
+        {
+          "id": 3228,
+          "category": 1,
+          "display_name": "青上高校旧制服",
+          "asset_no": 3228,
+          "asset_name": "041_botan_004_yukata_f_a",
+          "thumbnail": "041_botan_004_yukata_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "BD52AC0CA6965ED9A41D2A43326EC531C5160C6E"
+        },
+        {
+          "id": 3327,
+          "category": 1,
+          "display_name": "青上高校旧制服",
+          "asset_no": 3327,
+          "asset_name": "041_botan_005_mizugi_f_b",
+          "thumbnail": "041_botan_005_mizugi_f_b_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "BD52AC0CA6965ED9A41D2A43326EC531C5160C6E"
+        },
+        {
+          "id": 3518,
+          "category": 1,
+          "display_name": "青上高校旧制服",
+          "asset_no": 3518,
+          "asset_name": "041_botan_006_bj_f_a",
+          "thumbnail": "041_botan_006_bj_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "BD52AC0CA6965ED9A41D2A43326EC531C5160C6E"
+        },
+        {
+          "id": 3628,
+          "category": 1,
+          "display_name": "青上高校旧制服",
+          "asset_no": 3628,
+          "asset_name": "041_botan_007_santa_f_a",
+          "thumbnail": "041_botan_007_santa_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "BD52AC0CA6965ED9A41D2A43326EC531C5160C6E"
+        },
+        {
+          "id": 3728,
+          "category": 1,
+          "display_name": "青上高校旧制服",
+          "asset_no": 3728,
+          "asset_name": "041_botan_008_nss_f_a",
+          "thumbnail": "041_botan_008_nss_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "BD52AC0CA6965ED9A41D2A43326EC531C5160C6E"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "office": 1,
+      "priority": 30,
+      "name": "尾丸ポルカ",
+      "thumbnail": "042_polka_001_normal_icon",
+      "vrms": [
+        {
+          "id": 23,
+          "category": 1,
+          "display_name": "尾丸ポルカ",
+          "asset_no": 23,
+          "asset_name": "042_polka_001_normal",
+          "thumbnail": "042_polka_001_normal_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "8CE057B5042FE9B3069655F752E03FEDE6793A3B"
+        },
+        {
+          "id": 1633,
+          "category": 1,
+          "display_name": "青上高校旧制服",
+          "asset_no": 51,
+          "asset_name": "042_polka_002_sailorfs",
+          "thumbnail": "042_polka_002_sailorfs_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "0CF6648FB58C79D309F01919EADE860E23966438"
+        },
+        {
+          "id": 3113,
+          "category": 1,
+          "display_name": "青上高校旧制服",
+          "asset_no": 3113,
+          "asset_name": "042_polka_003_sailor_f_r",
+          "thumbnail": "042_Polka_003_Sailor_F_R_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "0CF6648FB58C79D309F01919EADE860E23966438"
+        },
+        {
+          "id": 3229,
+          "category": 1,
+          "display_name": "青上高校旧制服",
+          "asset_no": 3229,
+          "asset_name": "042_polka_004_yukata_f_a",
+          "thumbnail": "042_polka_004_yukata_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "0CF6648FB58C79D309F01919EADE860E23966438"
+        },
+        {
+          "id": 3328,
+          "category": 1,
+          "display_name": "青上高校旧制服",
+          "asset_no": 3328,
+          "asset_name": "042_polka_005_mizugi_f_b",
+          "thumbnail": "042_polka_005_mizugi_f_b_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "0CF6648FB58C79D309F01919EADE860E23966438"
+        },
+        {
+          "id": 3519,
+          "category": 1,
+          "display_name": "青上高校旧制服",
+          "asset_no": 3519,
+          "asset_name": "042_polka_006_bj_f_a",
+          "thumbnail": "042_polka_006_bj_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "0CF6648FB58C79D309F01919EADE860E23966438"
+        },
+        {
+          "id": 3629,
+          "category": 1,
+          "display_name": "青上高校旧制服",
+          "asset_no": 3629,
+          "asset_name": "042_polka_007_santa_f_a",
+          "thumbnail": "042_polka_007_santa_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "0CF6648FB58C79D309F01919EADE860E23966438"
+        },
+        {
+          "id": 3729,
+          "category": 1,
+          "display_name": "青上高校旧制服",
+          "asset_no": 3729,
+          "asset_name": "042_polka_008_nss_f_c",
+          "thumbnail": "042_polka_008_nss_f_c_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "0CF6648FB58C79D309F01919EADE860E23966438"
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "office": 1,
+      "priority": 31,
+      "name": "ラプラス・ダークネス",
+      "thumbnail": "052_Laplus_001_normal_icon",
+      "vrms": [
+        {
+          "id": 1686,
+          "category": 1,
+          "display_name": "ラプラス・ダークネス",
+          "asset_no": 57,
+          "asset_name": "052_laplus_002_short",
+          "thumbnail": "052_Laplus_001_normal_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "C957EFBF0712FEE2193611C481D3EF8913DE511D"
+        },
+        {
+          "id": 3230,
+          "category": 1,
+          "display_name": "ラプラス・ダークネス",
+          "asset_no": 3230,
+          "asset_name": "052_laplus_003_yukata_f_a",
+          "thumbnail": "052_laplus_003_yukata_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "C957EFBF0712FEE2193611C481D3EF8913DE511D"
+        },
+        {
+          "id": 3329,
+          "category": 1,
+          "display_name": "ラプラス・ダークネス",
+          "asset_no": 3329,
+          "asset_name": "052_laplus_004_mizugi_f_b",
+          "thumbnail": "052_laplus_004_mizugi_f_b_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "C957EFBF0712FEE2193611C481D3EF8913DE511D"
+        },
+        {
+          "id": 3630,
+          "category": 1,
+          "display_name": "ラプラス・ダークネス",
+          "asset_no": 3630,
+          "asset_name": "052_laplus_005_santa_f_a",
+          "thumbnail": "052_laplus_005_santa_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "C957EFBF0712FEE2193611C481D3EF8913DE511D"
+        },
+        {
+          "id": 3730,
+          "category": 1,
+          "display_name": "ラプラス・ダークネス",
+          "asset_no": 3730,
+          "asset_name": "052_laplus_006_nssv2_f_cb",
+          "thumbnail": "052_laplus_006_nssv2_f_cb_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "C957EFBF0712FEE2193611C481D3EF8913DE511D"
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "office": 1,
+      "priority": 32,
+      "name": "鷹嶺ルイ",
+      "thumbnail": "053_Taklui_001_normal_icon",
+      "vrms": [
+        {
+          "id": 1729,
+          "category": 1,
+          "display_name": "鷹嶺ルイ",
+          "asset_no": 54,
+          "asset_name": "053_taklui_001_normal",
+          "thumbnail": "053_Taklui_001_normal_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "F8700B13C6DDC022E2E3DAA6C2D8D1040C3C25AB"
+        },
+        {
+          "id": 3231,
+          "category": 1,
+          "display_name": "鷹嶺ルイ",
+          "asset_no": 3231,
+          "asset_name": "053_taklui_002_yukata_f_a",
+          "thumbnail": "053_taklui_002_yukata_f_a_01_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "F8700B13C6DDC022E2E3DAA6C2D8D1040C3C25AB"
+        },
+        {
+          "id": 3330,
+          "category": 1,
+          "display_name": "鷹嶺ルイ",
+          "asset_no": 3330,
+          "asset_name": "053_takanelui_003_mizugi_f_b",
+          "thumbnail": "053_takanelui_003_mizugi_f_b_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "F8700B13C6DDC022E2E3DAA6C2D8D1040C3C25AB"
+        },
+        {
+          "id": 3520,
+          "category": 1,
+          "display_name": "鷹嶺ルイ",
+          "asset_no": 3520,
+          "asset_name": "053_takanelui_004_bj_f_a",
+          "thumbnail": "053_takanelui_004_bj_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "F8700B13C6DDC022E2E3DAA6C2D8D1040C3C25AB"
+        },
+        {
+          "id": 3631,
+          "category": 1,
+          "display_name": "鷹嶺ルイ",
+          "asset_no": 3631,
+          "asset_name": "053_takanelui_005_santa_f_a",
+          "thumbnail": "053_takanelui_005_santa_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "F8700B13C6DDC022E2E3DAA6C2D8D1040C3C25AB"
+        },
+        {
+          "id": 3731,
+          "category": 1,
+          "display_name": "鷹嶺ルイ",
+          "asset_no": 3731,
+          "asset_name": "053_takanelui_006_nssv2_f_ca",
+          "thumbnail": "053_takanelui_006_nssv2_f_ca_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "F8700B13C6DDC022E2E3DAA6C2D8D1040C3C25AB"
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "office": 1,
+      "priority": 33,
+      "name": "博衣こより",
+      "thumbnail": "054_Koyori_001_normal_icon",
+      "vrms": [
+        {
+          "id": 1772,
+          "category": 1,
+          "display_name": "博衣こより",
+          "asset_no": 55,
+          "asset_name": "054_koyori_001_normal",
+          "thumbnail": "054_Koyori_001_normal_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "61F9FAE876CA3729301CBD2B2240800BC20F4954"
+        },
+        {
+          "id": 3232,
+          "category": 1,
+          "display_name": "博衣こより",
+          "asset_no": 3232,
+          "asset_name": "054_koyori_002_yukata_f_a",
+          "thumbnail": "054_koyori_002_yukata_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "61F9FAE876CA3729301CBD2B2240800BC20F4954"
+        },
+        {
+          "id": 3331,
+          "category": 1,
+          "display_name": "博衣こより",
+          "asset_no": 3331,
+          "asset_name": "054_koyori_003_mizugi_f_a",
+          "thumbnail": "054_koyori_003_mizugi_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "61F9FAE876CA3729301CBD2B2240800BC20F4954"
+        },
+        {
+          "id": 3521,
+          "category": 1,
+          "display_name": "博衣こより",
+          "asset_no": 3521,
+          "asset_name": "054_koyori_004_bj_f_a",
+          "thumbnail": "054_koyori_004_bj_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "61F9FAE876CA3729301CBD2B2240800BC20F4954"
+        },
+        {
+          "id": 3632,
+          "category": 1,
+          "display_name": "博衣こより",
+          "asset_no": 3632,
+          "asset_name": "054_koyori_005_santa_f_a",
+          "thumbnail": "054_koyori_005_santa_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "61F9FAE876CA3729301CBD2B2240800BC20F4954"
+        },
+        {
+          "id": 3732,
+          "category": 1,
+          "display_name": "博衣こより",
+          "asset_no": 3732,
+          "asset_name": "054_koyori_006_nssv2_f_bb",
+          "thumbnail": "054_koyori_006_nssv2_f_bb_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "61F9FAE876CA3729301CBD2B2240800BC20F4954"
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "office": 1,
+      "priority": 34,
+      "name": "沙花叉クロヱ",
+      "thumbnail": "056_Chloe_001_normal_icon",
+      "vrms": [
+        {
+          "id": 1643,
+          "category": 1,
+          "display_name": "沙花叉クロヱ",
+          "asset_no": 52,
+          "asset_name": "056_chloe_001_normal",
+          "thumbnail": "056_Chloe_001_normal_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "7CCD41AB6984A5BB3E8E62FCEC97701251071DAC"
+        },
+        {
+          "id": 3234,
+          "category": 1,
+          "display_name": "沙花叉クロヱ",
+          "asset_no": 3234,
+          "asset_name": "056_chloe_002_yukata_f_a",
+          "thumbnail": "056_chloe_002_yukata_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "7CCD41AB6984A5BB3E8E62FCEC97701251071DAC"
+        },
+        {
+          "id": 3332,
+          "category": 1,
+          "display_name": "沙花叉クロヱ",
+          "asset_no": 3332,
+          "asset_name": "056_chloe_003_mizugi_f_a",
+          "thumbnail": "056_chloe_003_mizugi_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "7CCD41AB6984A5BB3E8E62FCEC97701251071DAC"
+        },
+        {
+          "id": 3522,
+          "category": 1,
+          "display_name": "沙花叉クロヱ",
+          "asset_no": 3522,
+          "asset_name": "056_chloe_004_bj_f_a",
+          "thumbnail": "056_chloe_004_bj_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "7CCD41AB6984A5BB3E8E62FCEC97701251071DAC"
+        },
+        {
+          "id": 3634,
+          "category": 1,
+          "display_name": "沙花叉クロヱ",
+          "asset_no": 3634,
+          "asset_name": "056_chloe_005_santa_f_a",
+          "thumbnail": "056_chloe_005_santa_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "7CCD41AB6984A5BB3E8E62FCEC97701251071DAC"
+        },
+        {
+          "id": 3734,
+          "category": 1,
+          "display_name": "沙花叉クロヱ",
+          "asset_no": 3734,
+          "asset_name": "056_chloe_006_nssv2_f_bb",
+          "thumbnail": "056_chloe_006_nssv2_f_bb_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "7CCD41AB6984A5BB3E8E62FCEC97701251071DAC"
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "office": 1,
+      "priority": 35,
+      "name": "梅露",
+      "thumbnail": "004_Mel_001_normal_icon",
+      "vrms": [
+        {
+          "id": 1815,
+          "category": 1,
+          "display_name": "梅露",
+          "asset_no": 56,
+          "asset_name": "004_mel_001_normal",
+          "thumbnail": "004_Mel_001_normal_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "6F2A563746EA4E36BF0DCFE90537948D86D6B271"
+        },
+        {
+          "id": 3103,
+          "category": 1,
+          "display_name": "梅露",
+          "asset_no": 3103,
+          "asset_name": "004_mel_002_sailor_f_r",
+          "thumbnail": "004_Mel_002_Sailor_F_R",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "6F2A563746EA4E36BF0DCFE90537948D86D6B271"
+        },
+        {
+          "id": 3203,
+          "category": 1,
+          "display_name": "梅露",
+          "asset_no": 3203,
+          "asset_name": "004_mel_004_yukata_f_a",
+          "thumbnail": "004_mel_004_yukata_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "6F2A563746EA4E36BF0DCFE90537948D86D6B271"
+        },
+        {
+          "id": 3303,
+          "category": 1,
+          "display_name": "梅露",
+          "asset_no": 3303,
+          "asset_name": "004_mel_005_mizugi_f_a",
+          "thumbnail": "004_mel_005_mizugi_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "6F2A563746EA4E36BF0DCFE90537948D86D6B271"
+        },
+        {
+          "id": 3603,
+          "category": 1,
+          "display_name": "梅露",
+          "asset_no": 3603,
+          "asset_name": "004_mel_006_santa_f_a",
+          "thumbnail": "004_mel_006_santa_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "6F2A563746EA4E36BF0DCFE90537948D86D6B271"
+        },
+        {
+          "id": 3703,
+          "category": 1,
+          "display_name": "梅露",
+          "asset_no": 3703,
+          "asset_name": "004_mel_007_nss_f_a",
+          "thumbnail": "004_mel_007_nss_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "6F2A563746EA4E36BF0DCFE90537948D86D6B271"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "office": 2,
+      "priority": 201,
+      "name": "花咲みやび",
+      "thumbnail": "043_Miyabi_001_normal",
+      "vrms": [
+        {
+          "id": 910,
+          "category": 1,
+          "display_name": "花咲みやび",
+          "asset_no": 31,
+          "asset_name": "043_miyabi_001_normal",
+          "thumbnail": "043_Miyabi_001_normal",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "1747B78F66DD7133991075E5477B378F026F8F21"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "office": 2,
+      "priority": 203,
+      "name": "奏手イヅル",
+      "thumbnail": "044_Izuru_001_normal",
+      "vrms": [
+        {
+          "id": 911,
+          "category": 1,
+          "display_name": "奏手イヅル",
+          "asset_no": 32,
+          "asset_name": "044_izuru_001_normal",
+          "thumbnail": "044_Izuru_001_normal",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "E6976355FA02B65E67C6654C5CDB301FE8CAE9E9"
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "office": 2,
+      "priority": 205,
+      "name": "アルランディス",
+      "thumbnail": "057_Arurandeisu_young_001_normal_icon",
+      "vrms": [
+        {
+          "id": 1946,
+          "category": 1,
+          "display_name": "アルランディス",
+          "asset_no": 60,
+          "asset_name": "057_arurandeisu_young_001_normal",
+          "thumbnail": "057_Arurandeisu_young_001_normal_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "320239DA2392511183E44E021A3FE125B8E06B34"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "office": 2,
+      "priority": 206,
+      "name": "律可",
+      "thumbnail": "046_Rikka_001_normal",
+      "vrms": [
+        {
+          "id": 913,
+          "category": 1,
+          "display_name": "律可",
+          "asset_no": 34,
+          "asset_name": "046_rikka_001_normal",
+          "thumbnail": "046_Rikka_001_normal",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "878528A92F5D6EC820EB27047BAF4EAD67C726E4"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "office": 2,
+      "priority": 207,
+      "name": "アステル・レダ",
+      "thumbnail": "047_asuteru_001_normal",
+      "vrms": [
+        {
+          "id": 1355,
+          "category": 1,
+          "display_name": "アステル・レダ",
+          "asset_no": 40,
+          "asset_name": "047_asuteru_001_normal",
+          "thumbnail": "047_asuteru_001_normal",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "4A66AD77A2D758A002B04349C74722EEE29205E4"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "office": 2,
+      "priority": 208,
+      "name": "岸堂天真",
+      "thumbnail": "048_Tenma_001_normal",
+      "vrms": [
+        {
+          "id": 914,
+          "category": 1,
+          "display_name": "岸堂天真",
+          "asset_no": 35,
+          "asset_name": "048_tenma_001_normal",
+          "thumbnail": "048_Tenma_001_normal",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "B653CEB1C8C7FA2A3A1962371694E9D67D2B6B02"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "office": 2,
+      "priority": 209,
+      "name": "夕刻ロベル",
+      "thumbnail": "049_Roberu_001_normal",
+      "vrms": [
+        {
+          "id": 915,
+          "category": 1,
+          "display_name": "夕刻ロベル",
+          "asset_no": 36,
+          "asset_name": "049_roberu_001_normal",
+          "thumbnail": "049_Roberu_001_normal",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "B5CC2724F8235E94701CA643AEC0FF3F1DB575A8"
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "office": 2,
+      "priority": 210,
+      "name": "影山シエン",
+      "thumbnail": "050_Shien_001_normal",
+      "vrms": [
+        {
+          "id": 916,
+          "category": 1,
+          "display_name": "影山シエン",
+          "asset_no": 37,
+          "asset_name": "050_shien_001_normal",
+          "thumbnail": "050_Shien_001_normal",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "B95192DB0513D307965BC43B28E863F7506144CF"
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "office": 2,
+      "priority": 211,
+      "name": "荒咬オウガ",
+      "thumbnail": "051_Ouga_001_normal",
+      "vrms": [
+        {
+          "id": 917,
+          "category": 1,
+          "display_name": "荒咬オウガ",
+          "asset_no": 38,
+          "asset_name": "051_ouga_001_normal",
+          "thumbnail": "051_Ouga_001_normal",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "A3EC40E1FE9737DC8FAE1593FF740C099DB0BF49"
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "office": 2,
+      "priority": 212,
+      "name": "夜十神封魔",
+      "thumbnail": "058_Fuma_001_normal_icon",
+      "vrms": [
+        {
+          "id": 2080,
+          "category": 1,
+          "display_name": "夜十神封魔",
+          "asset_no": 63,
+          "asset_name": "058_fuma_001_normal",
+          "thumbnail": "058_Fuma_001_normal_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "B20949613E634EF0E812659C20BE1A2E14C6227A"
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "office": 2,
+      "priority": 213,
+      "name": "羽継烏有",
+      "thumbnail": "059_Uyu_001_normal_icon",
+      "vrms": [
+        {
+          "id": 2128,
+          "category": 1,
+          "display_name": "羽継烏有",
+          "asset_no": 64,
+          "asset_name": "059_uyu_001_normal",
+          "thumbnail": "059_Uyu_001_normal_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "657A12320B940471E11FEA5C8FEA45BAD160830D"
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "office": 2,
+      "priority": 215,
+      "name": "水無世燐央",
+      "thumbnail": "061_Rio_001_normal_icon",
+      "vrms": [
+        {
+          "id": 2222,
+          "category": 1,
+          "display_name": "水無世燐央",
+          "asset_no": 66,
+          "asset_name": "062_achan_002_normal",
+          "thumbnail": "061_Rio_001_normal_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "8A8C5F4374B2201EBB5D4DFE28F2A6D21FDD3321"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "office": 1,
+      "priority": 999,
+      "name": "Ayame",
+      "thumbnail": "011_Ayame_001_normal_icon",
+      "vrms": [
+        {
+          "id": 1994,
+          "category": 1,
+          "display_name": "Ayame",
+          "asset_no": 1994,
+          "asset_name": "011_ayame_001_normal",
+          "thumbnail": "011_Ayame_001_normal_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "54A065F02BD9B4A34F34AA6E035A5DC924004F9A"
+        },
+        {
+          "id": 3210,
+          "category": 1,
+          "display_name": "Ayame",
+          "asset_no": 3210,
+          "asset_name": "011_ayame_003_mizugi_f_a",
+          "thumbnail": "011_ayame_003_mizugi_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "54A065F02BD9B4A34F34AA6E035A5DC924004F9A"
+        },
+        {
+          "id": 3310,
+          "category": 1,
+          "display_name": "Ayame",
+          "asset_no": 3310,
+          "asset_name": "011_ayame_002_yukata_f_a",
+          "thumbnail": "011_ayame_002_yukata_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "54A065F02BD9B4A34F34AA6E035A5DC924004F9A"
+        },
+        {
+          "id": 3710,
+          "category": 1,
+          "display_name": "Ayame",
+          "asset_no": 3710,
+          "asset_name": "011_ayame_005_nss_f_a",
+          "thumbnail": "011_ayame_005_nss_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "54A065F02BD9B4A34F34AA6E035A5DC924004F9A"
+        },
+        {
+          "id": 3610,
+          "category": 1,
+          "display_name": "Ayame",
+          "asset_no": 3610,
+          "asset_name": "011_ayame_004_santa_f_a",
+          "thumbnail": "011_ayame_004_santa_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "54A065F02BD9B4A34F34AA6E035A5DC924004F9A"
+        }
+      ]
+    },
+    {
+      "id": 2223,
+      "office": 1,
+      "priority": 218,
+      "name": "友人A",
+      "thumbnail": "062_achan_002_normal_icon",
+      "vrms": [
+        {
+          "id": 2223,
+          "category": 1,
+          "display_name": "友人A",
+          "asset_no": 2223,
+          "asset_name": "062_achan_002_normal",
+          "thumbnail": "062_achan_002_normal_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "8A8C5F4374B2201EBB5D4DFE28F2A6D21FDD3321"
+        }
+      ]
+    },
+    {
+      "id": 3107,
+      "office": 1,
+      "priority": 219,
+      "name": "沁音",
+      "thumbnail": "016_Korone_002_Sailor_F_R_icon",
+      "vrms": [
+        {
+          "id": 13,
+          "category": 1,
+          "display_name": "沁音",
+          "asset_no": 13,
+          "asset_name": "016_korone_001_normal",
+          "thumbnail": "016_korone_001_normal_icon",
+          "parameter": "{}",
+          "priority": 1,
+          "hash": "8A8C5F4374B2201EBB5D4DFE28F2A6D21FDD3321"
+        },
+        {
+          "id": 3107,
+          "category": 1,
+          "display_name": "沁音",
+          "asset_no": 3107,
+          "asset_name": "016_korone_002_sailor_f_r",
+          "thumbnail": "016_Korone_002_Sailor_F_R_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "8A8C5F4374B2201EBB5D4DFE28F2A6D21FDD3321"
+        },
+        {
+          "id": 3215,
+          "category": 1,
+          "display_name": "沁音",
+          "asset_no": 3215,
+          "asset_name": "016_korone_004_yukata_f_a",
+          "thumbnail": "016_korone_004_yukata_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "8A8C5F4374B2201EBB5D4DFE28F2A6D21FDD3321"
+        },
+        {
+          "id": 3315,
+          "category": 1,
+          "display_name": "沁音",
+          "asset_no": 3315,
+          "asset_name": "016_korone_005_mizugi_f_a",
+          "thumbnail": "016_korone_005_mizugi_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "8A8C5F4374B2201EBB5D4DFE28F2A6D21FDD3321"
+        },
+        {
+          "id": 3508,
+          "category": 1,
+          "display_name": "沁音",
+          "asset_no": 3508,
+          "asset_name": "016_korone_006_bj_f_a",
+          "thumbnail": "016_korone_006_bj_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "8A8C5F4374B2201EBB5D4DFE28F2A6D21FDD3321"
+        },
+        {
+          "id": 3615,
+          "category": 1,
+          "display_name": "沁音",
+          "asset_no": 3615,
+          "asset_name": "016_korone_007_santa_f_a",
+          "thumbnail": "016_korone_007_santa_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "8A8C5F4374B2201EBB5D4DFE28F2A6D21FDD3321"
+        },
+        {
+          "id": 3715,
+          "category": 1,
+          "display_name": "沁音",
+          "asset_no": 3715,
+          "asset_name": "016_korone_008_nss_f_b",
+          "thumbnail": "016_korone_008_nss_f_b_icon",
+          "parameter": "{\"angleLimitHipDot\": 1, \"angleLimitLegDot\": 1, \"angleLimitLegCenterDot\": 1}",
+          "priority": 1,
+          "hash": "8A8C5F4374B2201EBB5D4DFE28F2A6D21FDD3321"
+        }
+      ]
+    },
+    {
+      "id": 909,
+      "office": 1,
+      "priority": 226,
+      "name": "姫森ルーナ",
+      "thumbnail": "028_Luna_001_JCXBov218jUwIVJC",
+      "vrms": [
+        {
+          "id": 909,
+          "category": 1,
+          "display_name": "姫森ルーナ",
+          "asset_no": 30,
+          "asset_name": "038_luna_001_normal",
+          "thumbnail": "028_Luna_001_JCXBov218jUwIVJC",
+          "parameter": "{}",
+          "priority": 1,
+          "hash": "45A14BC85AB55D9D18133BEBE5466ADBB9A20321"
+        },
+        {
+          "id": 3118,
+          "category": 1,
+          "display_name": "姫森ルーナ",
+          "asset_no": 3118,
+          "asset_name": "038_luna_009_blazerv2_f_a",
+          "thumbnail": "038_luna_009_blazerv2_f_a_icon",
+          "parameter": "{}",
+          "priority": 1,
+          "hash": "45A14BC85AB55D9D18133BEBE5466ADBB9A20321"
+        },
+        {
+          "id": 3225,
+          "category": 1,
+          "display_name": "姫森ルーナ",
+          "asset_no": 3225,
+          "asset_name": "038_luna_004_yukata_f_a",
+          "thumbnail": "038_luna_004_yukata_f_a_icon",
+          "parameter": "{}",
+          "priority": 1,
+          "hash": "45A14BC85AB55D9D18133BEBE5466ADBB9A20321"
+        },
+        {
+          "id": 3324,
+          "category": 1,
+          "display_name": "姫森ルーナ",
+          "asset_no": 3324,
+          "asset_name": "038_luna_005_mizugi_f_a",
+          "thumbnail": "038_luna_005_mizugi_f_a_icon",
+          "parameter": "{}",
+          "priority": 1,
+          "hash": "45A14BC85AB55D9D18133BEBE5466ADBB9A20321"
+        },
+        {
+          "id": 3516,
+          "category": 1,
+          "display_name": "姫森ルーナ",
+          "asset_no": 3516,
+          "asset_name": "038_luna_006_bj_f_a",
+          "thumbnail": "038_luna_006_bj_f_a_icon",
+          "parameter": "{}",
+          "priority": 1,
+          "hash": "45A14BC85AB55D9D18133BEBE5466ADBB9A20321"
+        },
+        {
+          "id": 3625,
+          "category": 1,
+          "display_name": "姫森ルーナ",
+          "asset_no": 3625,
+          "asset_name": "038_luna_007_santa_f_a",
+          "thumbnail": "038_luna_007_santa_f_a_icon",
+          "parameter": "{}",
+          "priority": 1,
+          "hash": "45A14BC85AB55D9D18133BEBE5466ADBB9A20321"
+        },
+        {
+          "id": 3725,
+          "category": 1,
+          "display_name": "姫森ルーナ",
+          "asset_no": 3725,
+          "asset_name": "038_luna_008_nss_f_b",
+          "thumbnail": "038_luna_008_nss_f_b_icon",
+          "parameter": "{}",
+          "priority": 1,
+          "hash": "45A14BC85AB55D9D18133BEBE5466ADBB9A20321"
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "office": 1,
+      "priority": 35,
+      "name": "風真いろは",
+      "thumbnail": "055_Iroha_001_normal_icon",
+      "vrms": [
+        {
+          "id": 1815,
+          "category": 1,
+          "display_name": "風真いろは",
+          "asset_no": 56,
+          "asset_name": "055_iroha_001_normal",
+          "thumbnail": "055_Iroha_001_normal_icon",
+          "parameter": "{\"angleLimitHipDot\": 0.7, \"angleLimitLegDot\": 0.9, \"angleLimitLegCenterDot\": 0.9}",
+          "priority": 1,
+          "hash": "6F2A563746EA4E36BF0DCFE90537948D86D6B271"
+        },
+        {
+          "id": 3233,
+          "category": 1,
+          "display_name": "風真いろは",
+          "asset_no": 3233,
+          "asset_name": "055_iroha_002_yukata_f_a",
+          "thumbnail": "055_iroha_002_yukata_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 0.7, \"angleLimitLegDot\": 0.9, \"angleLimitLegCenterDot\": 0.9}",
+          "priority": 1,
+          "hash": "6F2A563746EA4E36BF0DCFE90537948D86D6B271"
+        },
+        {
+          "id": 3633,
+          "category": 1,
+          "display_name": "風真いろは",
+          "asset_no": 3633,
+          "asset_name": "055_iroha_004_santa_f_a",
+          "thumbnail": "055_iroha_004_santa_f_a_icon",
+          "parameter": "{\"angleLimitHipDot\": 0.7, \"angleLimitLegDot\": 0.9, \"angleLimitLegCenterDot\": 0.9}",
+          "priority": 1,
+          "hash": "6F2A563746EA4E36BF0DCFE90537948D86D6B271"
+        },
+        {
+          "id": 3733,
+          "category": 1,
+          "display_name": "風真いろは",
+          "asset_no": 3733,
+          "asset_name": "055_iroha_005_nssv2_f_cc",
+          "thumbnail": "055_iroha_005_nssv2_f_cc_icon",
+          "parameter": "{\"angleLimitHipDot\": 0.7, \"angleLimitLegDot\": 0.9, \"angleLimitLegCenterDot\": 0.9}",
+          "priority": 1,
+          "hash": "6F2A563746EA4E36BF0DCFE90537948D86D6B271"
+        }
+      ]
+    }
+  ]
+}

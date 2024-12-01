@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>添加角色</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #2c3e50;
+        }
+
+        form {
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #3498db;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #2980b9;
+        }
+
+        #result {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #e8f5e9;
+            border: 1px solid #c8e6c9;
+            border-radius: 4px;
+        }
+
+        #version {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #fffbd1;
+            border: 1px solid #ffb827;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+<h1>角色资产表单</h1>
+<br>
+<div id="version"><a>当前hololy上报版本: {{.Hololy.VersionBypass}}</a></div>
+<br>
+<form id="assetForm">
+    <label for="id">角色名称：</label>
+    <input type="text" id="id" required>
+
+    <label for="json">数据：</label>
+    <textarea id="json" required></textarea>
+
+    <label for="covered">被覆盖角色ID：</label>
+    <input type="text" id="covered" required>
+
+    <label for="password">站点密码：</label>
+    <input type="password" id="password" required>
+
+    <button type="submit">提交</button>
+    <button type="button" id="deleteButton" style="background-color: #e74c3c;">删除</button>
+</form>
+
+<div id="result"></div>
+
+<script>
+
+    document.getElementById('assetForm').addEventListener('submit', function (e) {
+        e.preventDefault();
+
+        const id = document.getElementById('id').value;
+        const json = document.getElementById('json').value;
+        const covered = document.getElementById('covered').value;
+        const password = document.getElementById('password').value;
+
+        if (id && json && covered && password) {
+
+            const data = {
+                id: id,
+                json: json,
+                covered: covered,
+                password: password
+            };
+
+            fetch('/upload/characterInfo', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(data)
+            })
+                // .then(response => response.json())
+                .then(result => {
+                    if (result.status === 200) {
+                        document.getElementById('result').textContent = '提交成功';
+                    } else {
+                        if (result.status === 401) {
+                            document.getElementById('result').textContent = '密码错误';
+                        } else {
+                            document.getElementById('result').textContent = '提交失败';
+                        }
+                    }
+                })
+        } else {
+            document.getElementById('result').textContent = '请填写所有字段';
+        }
+    });
+
+    document.getElementById('deleteButton').addEventListener('click', function () {
+        const id = document.getElementById('id').value;
+        const password = document.getElementById('password').value;
+
+        if (id && password) {
+
+            const data = {
+                id: id,
+                password: password
+            };
+
+            fetch('/upload/characterInfo', {
+                method: 'DELETE',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(data)
+            })
+                .then(result => {
+                    if (result.status === 200) {
+                        document.getElementById('result').textContent = '删除成功';
+                    } else {
+                        if (result.status === 401) {
+                            document.getElementById('result').textContent = '密码错误';
+                        } else {
+                            document.getElementById('result').textContent = '删除失败';
+                        }
+                    }
+                });
+        } else {
+            document.getElementById('result').textContent = '请填写ID和密码';
+        }
+    });
+</script>
+</body>
+</html>

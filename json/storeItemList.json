@@ -1,0 +1,10 @@
+{
+  "message": "success",
+  "store_item_list": [],
+  "item_list": [],
+  "user_wallet": {
+    "paid": 114514,
+    "free": 0
+  },
+  "pending_item": []
+}
