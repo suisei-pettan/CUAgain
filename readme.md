@@ -16,11 +16,12 @@ Readme: [简体中文](/readme_zh.md)  English  [日本語](/readme_ja.md)
 
 ---
 ## Quick Deployment
-1. Download the corresponding architecture file from releases to your server
-2. Unzip the package
-3. Edit config.yaml for further configuration
-4. Grant write permission to the downloaded binary file
-5. Run the binary file
+
+1. Install the Go runtime environment
+
+2. In the directory on your server where you want to deploy CUAgain, execute: `git clone https://github.com/suisei-pettan/CUAgain.git`
+
+3. Enter the project directory and complete server configuration according to the configuration instructions below
 
 ---
 ## Configuration Instructions

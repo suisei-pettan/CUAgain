@@ -16,11 +16,9 @@ Readme: 简体中文  [English](/readme.md)  [日本語](/readme_ja.md)
 
 ---
 ## 快速部署
-1. 下载releases中对应架构的文件到服务器
-2. 解压压缩包
-3. 编辑config.yaml进一步配置
-4. 授予下载的二进制文件写入权限
-5. 运行二进制文件
+1. 安装go运行环境
+1. 在你的服务器要部署CUAgain的目录执行 `git clone https://github.com/suisei-pettan/CUAgain.git`
+2. 进入项目目录，按照下面的配置说明完成服务器配置
 
 ---
 ## 配置说明
