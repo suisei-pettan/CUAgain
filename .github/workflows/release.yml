@@ -1,61 +1,145 @@
-name: Go Cross-Platform Build
+name: Build and Release
 
-# Trigger the workflow on push to main branch and pull requests to main
+# Trigger the workflow on various events
 on:
+  # Manual workflow dispatch
+  workflow_dispatch:
+  
+  # Automatically run when a release is published
+  release:
+    types: [published]
+  
+  # Run on pushes to the main branch that modify specific files
   push:
-    branches: [ "main" ]
+    branches:
+      - main
+    paths:
+      - "**/*.go"  # Any Go source files
+      - "go.mod"   # Go module definition
+      - "go.sum"   # Go module checksum
+      - ".github/workflows/release.yml"  # The workflow file itself
+
+  # Run on pull requests that modify specific files
   pull_request:
-    branches: [ "main" ]
+    types: [opened, synchronize, reopened]
+    paths:
+      - "**/*.go"
+      - "go.mod"
+      - "go.sum"
+      - ".github/workflows/release.yml"
 
 jobs:
+  # Prepare job for downloading and caching resources
+  prepare:
+    runs-on: ubuntu-latest
+    steps:
+      # Optional: Add any preparation steps specific to your project
+      # For example, downloading dependency files, checking configurations
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up build resources
+        run: |
+          mkdir -p resources
+          # Add any specific resource preparation for CUAgain
+          echo "Preparing build resources..."
+
+  # Build job for compiling binaries across multiple platforms
   build:
-    # Use a matrix strategy to build on multiple operating systems
+    needs: prepare  # Ensure prepare job runs first
+    permissions:
+      contents: write  # Permissions to write release assets
+    
+    # Build matrix for multiple operating systems and architectures
     strategy:
       matrix:
-        os: [ubuntu-latest, windows-latest]
-        go-version: ['1.23']
-    
-    # Run the job on each specified operating system
-    runs-on: ${{ matrix.os }}
-    
-    steps:
-    # Step 1: Checkout the repository code
-    - uses: actions/checkout@v4
-    
-    # Step 2: Set up the specified Go version
-    - name: Set up Go
-      uses: actions/setup-go@v4
-      with:
-        go-version: ${{ matrix.go-version }}
-    
-    # Step 3: Build the project for the current OS
-    - name: Build
-      env:
-        GIN_MODE: release
-      run: go build -v ./...
-    
-    # Step 4: Run tests
-    - name: Test
-      run: go test -v ./...
-    
-    # Step 5: Create platform-specific binary artifacts
-    - name: Create Binaries
-      run: |
-        # For Linux and macOS
-        if [ "${{ matrix.os }}" != "windows-latest" ]; then
-          mkdir -p /linux
-          go build -o /linux/myapp-${{ matrix.os }}-${{ matrix.go-version }} ./...
-        fi
+        # Basic cross-platform compilation
+        goos: [windows, linux, darwin]
+        goarch: [amd64, arm64]
         
-        # For Windows (use .exe extension)
-        if [ "${{ matrix.os }}" == "windows-latest" ]; then
-          mkdir -p /windows
-          go build -o /windows/myapp-${{ matrix.os }}-${{ matrix.go-version }}.exe ./...
-        fi
+        # Exclude unsupported combinations
+        exclude:
+          - goarch: 386
+            goos: darwin
+
+        # Include additional architectures if needed
+        include:
+          # Additional ARM architectures for Linux
+          - goos: linux
+            goarch: arm
+            goarm: 7
+          - goos: linux
+            goarch: arm
+            goarm: 6
+
+      fail-fast: false  # Continue building even if one architecture fails
+
+    runs-on: ubuntu-latest
     
-    # Step 6: Upload artifacts for each build
-    - name: Upload Artifact
-      uses: actions/upload-artifact@v3
-      with:
-        name: myapp-${{ matrix.os }}-${{ matrix.go-version }}
-        path: ./myapp-*
+    # Environment variables for cross-compilation
+    env:
+      GOOS: ${{ matrix.goos }}
+      GOARCH: ${{ matrix.goarch }}
+      GOARM: ${{ matrix.goarm }}
+      CGO_ENABLED: 0  # Disable CGo for static binaries
+
+    steps:
+      - name: Checkout codebase
+        uses: actions/checkout@v4
+
+      - name: Show workflow information
+        run: |
+          echo "Building for GOOS: $GOOS, GOARCH: $GOARCH, GOARM: $GOARM"
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.23'
+          check-latest: true
+
+      - name: Get project dependencies
+        run: go mod download
+      
+      - name: Build CUAgain
+        run: |
+          mkdir -p build_assets
+          # Replace with your build command
+          go build -o build_assets/cuagain
+          # If you have multiple binaries, add them here
+
+      - name: Copy README & LICENSE
+        run: |
+          cp README.md build_assets/
+          cp LICENSE build_assets/
+
+      - name: Create ZIP archive
+        if: github.event_name == 'release'
+        shell: bash
+        run: |
+          pushd build_assets || exit 1
+          touch -mt $(date +%Y01010000) *
+          zip -9vr ../CUAgain-${{ matrix.goos }}-${{ matrix.goarch }}.zip .
+          popd || exit 1
+          
+          # Generate checksum files
+          FILE=./CUAgain-${{ matrix.goos }}-${{ matrix.goarch }}.zip
+          DGST=$FILE.dgst
+          for METHOD in {"md5","sha1","sha256","sha512"}
+          do
+            openssl dgst -$METHOD $FILE | sed 's/([^)]*)//g' >>$DGST
+          done
+
+      - name: Upload files to Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: CUAgain-${{ matrix.goos }}-${{ matrix.goarch }}
+          path: ./build_assets/*
+
+      - name: Upload binaries to release
+        uses: svenstaro/upload-release-action@v2
+        if: github.event_name == 'release'
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: ./CUAgain-${{ matrix.goos }}-${{ matrix.goarch }}.zip*
+          tag: ${{ github.ref }}
+          file_glob: true
