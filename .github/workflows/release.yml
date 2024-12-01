@@ -101,8 +101,11 @@ jobs:
         run: |
           mkdir -p build_assets
           # Replace with your build command
-          go build -o build_assets/cuagain
-          # If you have multiple binaries, add them here
+          if [ "${{ matrix.goos }}" = "windows" ]; then
+            go build -o build_assets/cuagain.exe
+          else
+            go build -o build_assets/cuagain
+          fi
 
       - name: Copy README & LICENSE
         run: |
