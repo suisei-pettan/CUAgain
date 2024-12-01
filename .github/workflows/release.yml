@@ -1,7 +1,7 @@
-# This workflow will build a golang project
+# This workflow will build a Golang project for Linux and Windows and upload the binaries to Artifacts.
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-go
 
-name: CUAgain
+name: CUAgain release
 
 on:
   push:
@@ -12,37 +12,51 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     strategy:
       matrix:
         os: [ubuntu-latest, windows-latest]
+        arch: [amd64, 386]
+        include:
+          - os: ubuntu-latest
+            ext: ""
+          - os: windows-latest
+            ext: ".exe"
+
     steps:
-    - uses: actions/checkout@v4
+    - name: Checkout code
+      uses: actions/checkout@v4
 
     - name: Set up Go
       uses: actions/setup-go@v4
       with:
-        go-version: '1.23.0'
-
-    - name: Create build directory
-      run: mkdir -p build
+        go-version: '1.20'
 
     - name: Build
       env:
         GIN_MODE: release
       run: |
-        if [[ "${{ matrix.os }}" == "ubuntu-latest" ]]; then
-          mkdir -p build/${{ matrix.os }}
-          GOOS=linux GOARCH=amd64 go build -v -o build/${{ matrix.os }} ./...
-        elif [[ "${{ matrix.os }}" == "windows-latest" ]]; then
-          mkdir -p build/${{ matrix.os }}
-          GOOS=windows GOARCH=amd64 go build -v -o build/${{ matrix.os }} ./...
-        fi
+        GOOS=${{ matrix.os == 'windows-latest' && echo 'windows' || echo 'linux' }}
+        GOARCH=${{ matrix.arch }}
+        OUTPUT="app-${{ matrix.os }}-${{ matrix.arch }}${{ matrix.ext }}"
+        go build -v -o $OUTPUT ./...
 
-    - name: Test
-      run: go test -v ./...
-
-    - name: Upload files to Artifacts
-      uses: actions/upload-artifact@v4
+    - name: Upload Artifact
+      uses: actions/upload-artifact@v3
       with:
-        name: CUAgain-${{ matrix.os }}
-        path: /build/CUAgain-${{ matrix.os }}
+        name: ${{ matrix.os }}-${{ matrix.arch }}
+        path: app-${{ matrix.os }}-${{ matrix.arch }}${{ matrix.ext }}
+
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Set up Go
+      uses: actions/setup-go@v4
+      with:
+        go-version: '1.20'
+
+    - name: Run Tests
+      run: go test -v ./...
