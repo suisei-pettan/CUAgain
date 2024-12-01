@@ -31,10 +31,10 @@ jobs:
         GIN_MODE: release
       run: |
         if [[ "${{ matrix.os }}" == "ubuntu-latest" ]]; then
-          mkdir -p build/linux
+          mkdir -p build/${{ matrix.os }}
           GOOS=linux GOARCH=amd64 go build -v -o build/linux ./...
         elif [[ "${{ matrix.os }}" == "windows-latest" ]]; then
-          mkdir -p build/windows
+          mkdir -p build/${{ matrix.os }}
           GOOS=windows GOARCH=amd64 go build -v -o build/windows ./...
         fi
 
