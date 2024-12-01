@@ -78,7 +78,7 @@ jobs:
       GOOS: ${{ matrix.goos }}
       GOARCH: ${{ matrix.goarch }}
       GOARM: ${{ matrix.goarm }}
-      CGO_ENABLED: 0  # Disable CGo for static binaries
+      CGO_ENABLED: 1  # Disable CGo for static binaries
 
     steps:
       - name: Checkout codebase
