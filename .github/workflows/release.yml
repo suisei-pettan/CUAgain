@@ -1,8 +1,6 @@
-# This workflow will build a Golang project for Linux and Windows and upload the binaries to Artifacts.
-# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-go
+name: Go Cross-Platform Build
 
-name: CUAgain release
-
+# Trigger the workflow on push to main branch and pull requests to main
 on:
   push:
     branches: [ "main" ]
@@ -11,52 +9,52 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
-
+    # Use a matrix strategy to build on multiple operating systems
     strategy:
       matrix:
         os: [ubuntu-latest, windows-latest]
-        arch: [amd64, 386]
-        include:
-          - os: ubuntu-latest
-            ext: ""
-          - os: windows-latest
-            ext: ".exe"
-
+        go-version: ['1.23']
+    
+    # Run the job on each specified operating system
+    runs-on: ${{ matrix.os }}
+    
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v4
-
+    # Step 1: Checkout the repository code
+    - uses: actions/checkout@v4
+    
+    # Step 2: Set up the specified Go version
     - name: Set up Go
       uses: actions/setup-go@v4
       with:
-        go-version: '1.20'
-
+        go-version: ${{ matrix.go-version }}
+    
+    # Step 3: Build the project for the current OS
     - name: Build
       env:
         GIN_MODE: release
+      run: go build -v ./...
+    
+    # Step 4: Run tests
+    - name: Test
+      run: go test -v ./...
+    
+    # Step 5: Create platform-specific binary artifacts
+    - name: Create Binaries
       run: |
-        GOOS=${{ matrix.os == 'windows-latest' && echo 'windows' || echo 'linux' }}
-        GOARCH=${{ matrix.arch }}
-        OUTPUT="app-${{ matrix.os }}-${{ matrix.arch }}${{ matrix.ext }}"
-        go build -v -o $OUTPUT ./...
-
+        # For Linux and macOS
+        if [ "${{ matrix.os }}" != "windows-latest" ]; then
+          go build -o myapp-${{ matrix.os }}-${{ matrix.go-version }} ./...
+        fi
+        
+        # For Windows (use .exe extension)
+        if [ "${{ matrix.os }}" == "windows-latest" ]; then
+          go build -o myapp-${{ matrix.os }}-${{ matrix.go-version }}.exe ./...
+        fi
+    
+    # Step 6: Upload artifacts for each build
     - name: Upload Artifact
       uses: actions/upload-artifact@v3
       with:
-        name: ${{ matrix.os }}-${{ matrix.arch }}
-        path: app-${{ matrix.os }}-${{ matrix.arch }}${{ matrix.ext }}
-
-  test:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Checkout code
-      uses: actions/checkout@v4
-
-    - name: Set up Go
-      uses: actions/setup-go@v4
-      with:
-        go-version: '1.20'
-
-    - name: Run Tests
-      run: go test -v ./...
+        name: myapp-${{ matrix.os }}-${{ matrix.go-version }}
+        path: myapp-*
+        retention-days: 5
