@@ -1,4 +1,4 @@
-name: Build and Release
+name: release
 
 # Trigger the workflow on various events
 on:
@@ -67,9 +67,6 @@ jobs:
           # Additional ARM architectures for Linux
           - goos: linux
             goarch: arm
-            goarm: 7
-          - goos: linux
-            goarch: arm
             goarm: 6
 
       fail-fast: false  # Continue building even if one architecture fails
@@ -111,6 +108,15 @@ jobs:
         run: |
           cp readme.md build_assets/
           cp LICENSE build_assets/
+          
+      - name: Copy json & config & rsa & mitm & static
+        run: |
+          mkdir json,rsa,mitm,static
+          cp -r json build_assets/json
+          cp -r rsa build_assets/rsa
+          cp -r mitm build_assets/mitm
+          cp -r static build_assets/static
+          cp config.yaml build_assets/
 
       - name: Create ZIP archive
         if: github.event_name == 'release'
