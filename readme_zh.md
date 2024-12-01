@@ -10,7 +10,7 @@ Readme: 简体中文  [English](/readme.md)  [日本語](/readme_ja.md)
 1. 在移动设备上安装Hololy
 1. 按照 [Reqable文档](https://reqable.com/docs/getting-started/) 完成 Reqable 在PC和移动端的安装以及证书安装
 1. 将移动端 Reqable 连接PC端，并开启抓包
-1. 在PC端的 Reqable 右键点击重写按键，选择 管理规则，导入项目文件夹下的 `/mitm/reqable-rewrites.config` ，重定向到的 `https://cuagain.one` 可替换为其他CUAgain服务端
+1. 在PC端的 Reqable 右键点击重写按键，选择 管理规则，导入项目文件夹下的 [/mitm/reqable-rewrites.config](/mitm/reqable-rewrites.config) ，重定向到的 `https://cuagain.one` 可替换为其他CUAgain服务端
 1. 打开Hololy，应用发起的 `/asset/Provisioning/hIz5WkFuV6qXgTtQ.json` 请求成功后(约5秒)即可断开Reqable
 
 

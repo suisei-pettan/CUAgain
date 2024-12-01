@@ -10,7 +10,7 @@ Readme: [简体中文](/readme_zh.md)  [English](/readme.md)  日本語
 1. モバイルデバイスにHololyをインストール
 2. [Reqableドキュメント](https://reqable.com/docs/getting-started/)に従い、PCおよびモバイルでのReqableのインストールと証明書設定を完了
 3. モバイルのReqableをPCのReqableに接続し、パケットキャプチャを開始
-4. PCのReqableで書き換えボタンを右クリックし、ルール管理を選択。プロジェクトフォルダの `/mitm/reqable-rewrites.config` をインポート。`https://cuagain.one` へのリダイレクトは、他のCUAgainサーバーに置き換え可能
+4. PCのReqableで書き換えボタンを右クリックし、ルール管理を選択。プロジェクトフォルダの [/mitm/reqable-rewrites.config](/mitm/reqable-rewrites.config) をインポート。`https://cuagain.one` へのリダイレクトは、他のCUAgainサーバーに置き換え可能
 5. Hololyを開く。アプリが `/asset/Provisioning/hIz5WkFuV6qXgTtQ.json` リクエストを正常に開始した後（約5秒）、Reqableを切断できます
 
 ---

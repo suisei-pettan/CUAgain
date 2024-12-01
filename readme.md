@@ -11,7 +11,7 @@ Readme: [简体中文](/readme_zh.md)  English  [日本語](/readme_ja.md)
 1. Install Hololy on your mobile device
 2. Follow [Reqable documentation](https://reqable.com/docs/getting-started/) to complete Reqable installation and certificate setup on PC and mobile
 3. Connect mobile Reqable to PC Reqable and start packet capture
-4. Right-click the rewrite button on PC Reqable, select Manage Rules, import `/mitm/reqable-rewrites.config` from the project folder. The redirection to `https://cuagain.one` can be replaced with other CUAgain servers
+4. Right-click the rewrite button on PC Reqable, select Manage Rules, import [/mitm/reqable-rewrites.config](/mitm/reqable-rewrites.config) from the project folder. The redirection to `https://cuagain.one` can be replaced with other CUAgain servers
 5. Open Hololy. After the app successfully initiates the `/asset/Provisioning/hIz5WkFuV6qXgTtQ.json` request (about 5 seconds), you can disconnect Reqable
 
 ---
