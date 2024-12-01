@@ -109,7 +109,7 @@ jobs:
 
       - name: Copy README & LICENSE
         run: |
-          cp README.md build_assets/
+          cp readme.md build_assets/
           cp LICENSE build_assets/
 
       - name: Create ZIP archive
