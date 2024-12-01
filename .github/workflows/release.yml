@@ -43,12 +43,12 @@ jobs:
       run: |
         # For Linux and macOS
         if [ "${{ matrix.os }}" != "windows-latest" ]; then
-          go build -o myapp-${{ matrix.os }}-${{ matrix.go-version }} ./...
+          go build -o ./myapp-${{ matrix.os }}-${{ matrix.go-version }} ./...
         fi
         
         # For Windows (use .exe extension)
         if [ "${{ matrix.os }}" == "windows-latest" ]; then
-          go build -o myapp-${{ matrix.os }}-${{ matrix.go-version }}.exe ./...
+          go build -o ./myapp-${{ matrix.os }}-${{ matrix.go-version }}.exe ./...
         fi
     
     # Step 6: Upload artifacts for each build
@@ -56,5 +56,4 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: myapp-${{ matrix.os }}-${{ matrix.go-version }}
-        path: myapp-*
-        retention-days: 5
+        path: ./myapp-*
