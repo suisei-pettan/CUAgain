@@ -32,10 +32,10 @@ jobs:
       run: |
         if [[ "${{ matrix.os }}" == "ubuntu-latest" ]]; then
           mkdir -p build/${{ matrix.os }}
-          GOOS=linux GOARCH=amd64 go build -v -o build/linux ./...
+          GOOS=linux GOARCH=amd64 go build -v -o build/${{ matrix.os }} ./...
         elif [[ "${{ matrix.os }}" == "windows-latest" ]]; then
           mkdir -p build/${{ matrix.os }}
-          GOOS=windows GOARCH=amd64 go build -v -o build/windows ./...
+          GOOS=windows GOARCH=amd64 go build -v -o build/${{ matrix.os }} ./...
         fi
 
     - name: Test
@@ -46,4 +46,4 @@ jobs:
       with:
         name: CUAgain-${{ matrix.os }}
         path: |
-            ./CUAgain-${{ matrix.os }}/*
+            ./build/CUAgain-${{ matrix.os }}/*
