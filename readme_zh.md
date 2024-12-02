@@ -2,6 +2,17 @@
 
 ---
 Readme: 简体中文  [English](/readme.md)  [日本語](/readme_ja.md)
+## Features
+1. 独立于官方服务器工作
+2. 解锁所有角色和服装
+3. 移除部分视角限制(不含AR相机)
+4. 允许Hololive成员使用Holostar成员动作
+
+---
+## Demo
+`https://cuagain.one`
+
+---
 ## 使用说明
 1. 使用Reqable
 2. 使用mitmproxy脚本(WIP)
@@ -17,8 +28,10 @@ Readme: 简体中文  [English](/readme.md)  [日本語](/readme_ja.md)
 ---
 ## 快速部署
 1. 安装go运行环境
-1. 在你的服务器要部署CUAgain的目录执行 `git clone https://github.com/suisei-pettan/CUAgain.git`
-2. 进入项目目录，按照下面的配置说明完成服务器配置
+2. 在你的服务器要部署CUAgain的目录执行 `git clone https://github.com/suisei-pettan/CUAgain.git`
+3. 进入项目目录，按照下面的配置说明完成服务器配置
+4. 设置环境变量 `CGO_ENABLED=1`
+5. 运行 `go run main.go`
 
 ---
 ## 配置说明
@@ -66,3 +79,9 @@ hololy:
 
 ## TODO
 - 服务端WebUI管理面板
+
+---
+## 注意事项
+- 请不要滥用此项目，避免给Hololive成员或官方带来困扰
+- Demo的角色和服装解锁功能有限制，仅恢复官方于2024年12月2日的模型以及所有曾经存在于Hololy且毕业的成员，付费服装在Demo中不提供解锁
+- 部分隐藏模型因官方提供的模型本身出现异常会产生错误，这是CUAgain无法解决的
