@@ -2743,9 +2743,9 @@
       ]
     },
     {
-      "id": 16,
+      "id": 1994,
       "office": 1,
-      "priority": 999,
+      "priority": 998,
       "name": "Ayame",
       "thumbnail": "011_Ayame_001_normal_icon",
       "vrms": [
@@ -3048,6 +3048,26 @@
           "parameter": "{\"angleLimitHipDot\": 0.7, \"angleLimitLegDot\": 0.9, \"angleLimitLegCenterDot\": 0.9}",
           "priority": 1,
           "hash": "6F2A563746EA4E36BF0DCFE90537948D86D6B271"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "office": 1,
+      "priority": 999,
+      "name": "あん肝",
+      "thumbnail": "033_Ankimo_001_normal_icon",
+      "vrms": [
+        {
+          "id": 16,
+          "category": 1,
+          "display_name": "あん肝",
+          "asset_no": 16,
+          "asset_name": "033_ankimo_001_normal",
+          "thumbnail": "033_Ankimo_001_normal_icon",
+          "parameter": "{}",
+          "priority": 1,
+          "hash": "91CC27E1FEDBC680B78E1F85BD18671B8A77062B"
         }
       ]
     }
